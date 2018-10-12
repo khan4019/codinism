@@ -527,6 +527,8 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
 /*----------------------------------------------------*/
 /* Services_area */
+/*----------------------------------------------------*/
+
 .services_area {
   display: block;
   padding-top: 170px;
@@ -610,5 +612,63 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 .sa_3 {
   padding-bottom: 140px;
 }
+ /*----------------------------------------------------*/
+/* End Services_area */
+ /*----------------------------------------------------*/
 
-/* Services_area */
+/*----------------------------------------------------*/
+/* Start About Section */
+ /*----------------------------------------------------*/
+.best_agency_area {
+  background-color: #f5f7ff;
+     padding: 30px 0 60px 0px;
+ }
+ .best_agency_area .agency_text {
+   padding-top: 130px;
+   padding-left: 130px;
+ }
+ .best_agency_area .agency_text h2 {
+     font: 52px/62px "Work Sans", sans-serif;
+     color: #434672;
+     position: relative;
+     letter-spacing: 1.5px;
+     font-weight: bold;
+     z-index: 1;
+     margin-bottom: 20px;
+ }
+ .best_agency_area .agency_text h2:after {
+   content: "About Agency";
+   font: 700 100px/1 "Dancing Script", cursive;
+   color: #f2f9ff;
+   position: absolute;
+   left: -40px;
+   text-align: center;
+   bottom: 0;
+   z-index: -1;
+ }
+ .best_agency_area .agency_text p {
+  /* font: 400 22px/38px "Work Sans", sans-serif; */
+   font: 500 25px/40px "Work Sans", sans-serif;
+   color: rgba(36, 36, 37, 0.702);
+   max-width: 585px;
+   padding-top: 50px;
+ }
+ .best_agency_area strong{
+     font: 25px/35px "Work Sans", sans-serif;
+     color: #434672;
+     letter-spacing: 1.3px;
+     font-weight: bold;
+ }
+ 
+ .best_agency_area .agency_text a {
+   letter-spacing: 2px;
+   margin-top: 90px;
+ }
+ .best_agency_area .agency_img {
+   padding-top: 55px;
+   padding-left: 0;
+ }
+ 
+  /*----------------------------------------------------*/
+ /* End About Section */
+ /*----------------------------------------------------*/
