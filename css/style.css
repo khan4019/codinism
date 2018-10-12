@@ -58,6 +58,14 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   display: block;
 }
 
+/* Tittle */
+.tittle {
+  font: 600 45px/62px "Work Sans", sans-serif;
+  color: #282828;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
 
 /*----------------------------------------------------*/
 /* Bottom to Top key frame*/
