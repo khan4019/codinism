@@ -760,3 +760,273 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 
 /*END Feature_work_section */
+
+
+
+
+.box-sizing(@boxmodel) {
+  -webkit-box-sizing: @boxmodel;
+     -moz-box-sizing: @boxmodel;
+          box-sizing: @boxmodel;
+}
+.contact-us-section{
+      padding-left: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*----------------------- Conatct Us ----------------------*/
+.contact-us-section .contact-us-form {padding-right: 70px;}
+.contact-us-section .contact-us-form input[type="text"],
+.contact-us-section .contact-us-form input[type="email"],
+.contact-us-section .contact-us-form textarea {
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  border-bottom: 2px solid #f0eff4;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.contact-us-section .contact-us-form input[type="text"]:focus,
+.contact-us-section .contact-us-form input[type="email"]:focus,
+.contact-us-section .contact-us-form textarea:focus {border-bottom-color: #3fdefb;}
+.contact-us-section .contact-us-form input[type="text"],
+.contact-us-section .contact-us-form input[type="email"] {
+  height: 60px;
+  padding-left: 20px;
+  background-color: #d2d9ff;
+}
+.contact-us-section .contact-us-form textarea {
+  height: 165px;
+  padding: 15px 20px;
+  background-color: #d2d9ff;
+}
+.contact-us-section .contact-us-form .theme-button {
+  width: 190px;
+  height: 50px;
+  border-radius: 25px;
+}
+.contact-us-section .contact-us-form .theme-button input[type="submit"] {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  background: linear-gradient( 41deg, rgba(0, 161, 255, 0.48) 0%, rgba(140, 78, 255, 0.57) 100%);
+}
+.contact-us-section .contact-address {margin: 20px 0 60px 0;}
+.contact-us-section .contact-address .theme-title-one h6 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: inherit;
+}
+.contact-us-section .contact-address .theme-title-one h2 {
+  font-size: 38px;
+  line-height: 55px;
+}
+.contact-us-section .contact-address p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #8c8c8c;
+  margin: 50px 0 10px 0;
+}
+.contact-us-section .contact-address .call {
+  font-weight: 500;
+  font-size: 28px;
+  color: #00000a;
+}
+/*======================= Form Validation ===================*/
+.alert-wrapper {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height:100%;
+  background: rgba(0,0,0,0.6);
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+}
+#success,
+#error {
+  position: relative;
+  width:500px;
+  height: 100px;
+  top: calc(50% - 50px);
+  left:calc(50% - 250px);
+  background: rgba(0,0,0,0.8);
+  text-align: center;
+}
+#success .wrapper,
+#error .wrapper {
+  display: table;
+  width:100%;
+  height: 100%;
+}
+#success .wrapper p,
+#error .wrapper p{
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: 1px;
+}
+#success {
+  color: #26ace3;
+}
+#error {
+  color: #C9182B;
+}
+#error button,
+#success button {
+  color:#fff;
+  width:40px;
+  height:40px;
+  line-height: 20px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 20px;
+}
+.form-validation label.error {display: none !important;}
+.form-validation textarea.error,
+.form-validation input.error {border-bottom:2px solid #f65353 !important;}
+/*---------------------- Google-map ------------------*/
+
+
+
+
+/* Email_us */
+/* Footer Home pages */
+.footer_area {
+    display: block;
+    overflow: hidden;
+    background: url(../images/footer-bg.png) no-repeat right bottom;
+    background-size: cover;
+    padding-top: 145px;
+    position: relative;
+}
+.footer_area .layer_1 {
+  position: absolute !important;
+  top: 20px !important;
+  left: 50px !important;
+}
+.footer_area .layer_2 {
+  position: absolute !important;
+  top: 170px !important;
+  right: 150px !important;
+  left: auto !important;
+}
+.footer_area .footer_inner {
+  padding-bottom: 30px;
+}
+.footer_area .footer_inner .footer_logo {
+  margin-bottom: 30px;
+}
+.footer_area .footer_inner .footer_logo img {
+  max-width: 100%;
+}
+.footer_area .footer_inner .footer_logo p {
+  font: 500 24px/36px "Work Sans", sans-serif;
+      color: rgba(36, 36, 37, 0.78);
+  padding: 33px 0 45px;
+}
+.footer_area .footer_inner .footer_logo h6 {
+  font: 400 18px/36px "Work Sans", sans-serif;
+  color: #4b4b4c;
+}
+.footer_area .footer_inner .footer_logo h6 i {
+  padding-right: 20px;
+  color: #a0afff;
+  font-size: 20px;
+}
+.footer_area .footer_inner .footer_logo .footer_social {
+  padding-top: 30px;
+}
+.footer_area .footer_inner .footer_logo .footer_social li {
+  display: inline-block;
+  padding-right: 7px;
+  padding-bottom: 10px;
+}
+.footer_area .footer_inner .footer_logo .footer_social li a {
+  width: 45px;
+  line-height: 45px;
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 50%;
+  background: #c0cafc;
+}
+.footer_area .footer_inner .footer_logo .footer_social li a:hover, .footer_area .footer_inner .footer_logo .footer_social li a:focus {
+  background: #b76dfe;
+}
+.footer_area .footer_inner .footer_widget {
+  padding: 0;
+  padding-left: 100px;
+}
+.footer_area .footer_inner .footer_widget h4 {
+  font: 600 20px/1 "Work Sans", sans-serif;
+  color: #4b4b4c;
+  padding-bottom: 45px;
+  margin-top: -5px;
+  text-transform: uppercase;
+}
+.footer_area .footer_inner .footer_widget .footer_nav li:first-child {
+  margin-top: -5px;
+}
+.footer_area .footer_inner .footer_widget .footer_nav li a {
+  font: 400 18px/42px "Work Sans", sans-serif;
+  color: #4b4b4c;
+}
+.footer_area .footer_inner .footer_widget .footer_nav li a:hover, .footer_area .footer_inner .footer_widget .footer_nav li a:focus {
+  color: #b76dfe;
+}
+.footer_area .footer_inner .footer_widget address {
+  font: 400 18px/36px "Work Sans", sans-serif;
+  color: #4b4b4c;
+}
+.footer_area .footer_inner .footer_widget address a {
+  color: #4b4b4c;
+  display: block;
+}
+.footer_area .footer_inner .footer_widget address a:hover, .footer_area .footer_inner .footer_widget address a:focus {
+  color: #b76dfe;
+}
+.footer_area .footer_inner .footer_widget address .mail {
+  padding-top: 20px;
+}
+.footer_area .footer_inner .fw_2 {
+  padding-left: 35px;
+}
+.footer_area .footer_inner .fw_3 {
+  padding-left: 50px;
+}
+.footer_area .copy_right {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  padding: 24px 0;
+}
+.footer_area .copy_right p {
+  font: 400 16px/32px "Muli", sans-serif;
+  color: #4b4b4c;
+}
+.footer_area .copy_right p a {
+  color: #4b4b4c;
+}
+.footer_area .copy_right p a:hover, .footer_area .copy_right p a:focus {
+  color: #b76dfe;
+}
+
+/* End Footer Home pages */
