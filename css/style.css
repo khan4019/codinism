@@ -672,3 +672,83 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   /*----------------------------------------------------*/
  /* End About Section */
  /*----------------------------------------------------*/
+
+
+ /*----------------------------------------------------*/
+/* START Feature_work_Section */
+
+.feature_work_area {
+  display: block;
+  overflow: hidden;
+  position: relative;
+      padding: 160px 0 155px 0;
+}
+.feature_work_area .layer_1 {
+  top: 320px !important;
+  left: 0 !important;
+}
+.feature_work_area .tittle {
+      margin-bottom: 75px;
+    font: 52px/62px "Work Sans", sans-serif;
+    color: #434672;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+}
+
+.feature_work_area .feature_img img {
+
+}
+.feature_work_area .feature_content {
+  padding-left: 35px;
+  padding-top: 135px;
+}
+.feature_work_area .feature_content h2 {
+    color: #7c3197;
+    letter-spacing: 1.4px;
+    font: 52px/60px "Work Sans", sans-serif;
+    font-weight: bold;
+}
+.feature_work_area .feature_content p {
+    /* font: 400 19px/38px "Muli", sans-serif; */
+    font: 500 25px/40px "Work Sans", sans-serif;
+    color: rgba(36, 36, 37, 0.702);
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.feature_work_area .feature_content .theme_btn {
+  min-width: 280px;
+
+}
+.feature_work_area .feature_content .theme_btn_googleplay{
+  min-width: 280px;
+  cursor: pointer;
+  border-radius: 10px;
+  /* box-shadow: 0px 8px 30px 0px rgba(170, 130, 244, 0.35); */
+    box-shadow: 0px 7px 30px 0px rgba(64, 53, 92, 0.48);
+    
+}
+
+.fwa_2 {
+  padding-bottom: 125px;
+}
+.fwa_2 .feature_img {
+  position: relative;
+}
+.fwa_2 .feature_img .fetures_bg {
+  margin-left: -145px;
+  position: relative !important;
+}
+.fwa_2 .feature_img .fetures_bg + img {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.fwa_3 {
+  padding-bottom: 80px;
+}
+
+/*END Feature_work_section */
