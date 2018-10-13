@@ -1050,7 +1050,8 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   background: #ce8506;
 }
 
-/*----------------------------------------------------*/
+/*--------------------------------------------*/
+
 @media (max-width: 1400px) {
   .banner_area {
     background-size: 70%;
@@ -1067,7 +1068,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 1400px) {
   .max_header {
     padding: 0 55px 0 96px;
 }
