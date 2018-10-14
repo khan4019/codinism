@@ -478,7 +478,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .banner_area h2 {
   /* font: 700 65px/75px "Work Sans", sans-serif; */
-  font: 700 70px/100px "Work Sans", sans-serif;
+  font: 700 69px/94px "Work Sans", sans-serif;
   color: #3F4370;
   /*  max-width: 620px; */
   padding-top: 20px;
@@ -486,7 +486,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
 }
 .banner_area p {
-    font: 600 30px/38px "Muli", sans-serif;
+  font: 600 28px/38px "Muli", sans-serif;
     color: rgba(41, 41, 41, 0.8);
     /* max-width: 874px; */
     padding-top: 55px;
@@ -644,16 +644,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
      z-index: 1;
      margin-bottom: 20px;
  }
- .best_agency_area .agency_text h2:after {
-   content: "About Agency";
-   font: 700 100px/1 "Dancing Script", cursive;
-   color: #f2f9ff;
-   position: absolute;
-   left: -40px;
-   text-align: center;
-   bottom: 0;
-   z-index: -1;
- }
+
  .best_agency_area .agency_text p {
   /* font: 400 22px/38px "Work Sans", sans-serif; */
    font: 500 25px/40px "Work Sans", sans-serif;
@@ -1050,12 +1041,105 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   background: #ce8506;
 }
 
+
 /*--------------------------------------------*/
 
-@media (max-width: 1400px) {
+@media (max-width: 1024px) {
+  .main_header_area {
+    padding-top: 0px !important;
+}
+.main_header_area .header_menu .navbar .navbar_supported ul li a {
+  margin: 0 13px !important;
+  font: 500 15px/55px "Work Sans", sans-serif !important;
+}
+
+.max {
+  padding-left: 75px !important;
+}
+.banner_area h2 {
+  font: 700 38px/51px "Work Sans", sans-serif !important;
+  color: #434672;
+  padding-top: 0px;
+  letter-spacing: .5px !important;
+}
+.banner_area {
+  padding: 235px 0 230px !important;
+  background-size: 65% !important;
+}
+.banner_area p {
+  font: 600 16px/76px "Muli", sans-serif !important;
+  padding-top: 5px;
+}
+.max_header {
+  padding: 0 55px 0 75px !important;
+}
+.services_area {
+  padding-top: 5px !important;
+}
+.services_area .services_row {
+  padding-top: 85px;
+}
+.services_area h2 {
+  font: 700 40px/62px "Work Sans", sans-serif !important;
+}
+.best_agency_area .agency_text h2 {
+  font: 700 40px/62px "Work Sans", sans-serif !important;
+}
+.agency_img img {
+  max-width: 430px;
+}
+.best_agency_area .agency_text {
+  padding: 70px 0 0 65px !important;
+}
+.best_agency_area .agency_text p {
+  font: 500 20px/40px "Work Sans", sans-serif !important;
+  padding-top: 0px !important;
+}
+.best_agency_area {
+  padding: 55px 0 120px 0px;
+}
+.feature_work_area .tittle {
+  color: #434672;
+  font: 700 42px/62px "Work Sans", sans-serif !important;
+  letter-spacing: 1px;
+}
+.feature_work_area .feature_img img {
+  max-width: 500px;
+}
+.feature_work_area .feature_content h2 {
+  letter-spacing: 1.2px;
+  font: 700 32px/20px "Work Sans", sans-serif !important;
+}
+.feature_work_area .feature_content {
+  padding-top: 105px;
+}
+.feature_content p {
+  padding-bottom: 45px !important;
+  padding-top: 40px !important;
+}
+.feature_work_area .feature_content .theme_btn_googleplay {
+  max-width: 170px;
+}
+.footer_logo p {
+  font: 500 22px/36px "Work Sans", sans-serif !important;
+}
+.footer_area .footer_inner .footer_logo {
+  padding-left: 50px;
+}
+
+}
+
+
+
+
+
+
+
+/*--------------------------------------------*/
+
+@media (min-width: 1400px) {
   .banner_area {
-    background-size: 70%;
-    padding-bottom: 0;
+    background-size: 65%;
   }
 
   .ba_2 .banner_img, .ba_3 .banner_img {
