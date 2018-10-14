@@ -689,7 +689,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   display: block;
   overflow: hidden;
   position: relative;
-      padding: 160px 0 155px 0;
+      padding: 155px 0 155px 0;
 }
 .feature_work_area .layer_1 {
   top: 320px !important;
@@ -729,7 +729,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
 }
 .feature_work_area .feature_content .theme_btn_googleplay{
-  min-width: 280px;
+  width: 280px;
   cursor: pointer;
   border-radius: 10px;
   /* box-shadow: 0px 8px 30px 0px rgba(170, 130, 244, 0.35); */
@@ -1110,8 +1110,72 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
 
 .services_area {
-  padding-top: 140px;
+  padding-top: 115px;
 }
+
+.agency_img img{
+  width: 580px;
+}
+.best_agency_area .agency_text {
+  padding-left: 95px;
+}
+
+.feature_work_area .feature_img img{
+  width: 610px;
+}
+
+.feature_work_area .feature_content h2 {
+  letter-spacing: 1.2px;
+  font: 40px/20px "Work Sans", sans-serif;
+  font-weight: bold;
+}
+.feature_work_area .tittle {
+  padding-bottom: 15px;
+}
+
+.feature_work_area .feature_content .theme_btn_googleplay {
+  width: 190px;
+}
+
+
+.feature_work_area .feature_content p {
+  font: 500 22px/40px "Work Sans", sans-serif;
+  padding-bottom: 70px;
+}
+
+.footer_area .footer_inner .footer_logo p {
+  font: 500 23px/36px "Work Sans", sans-serif;
+}
+
+.contact-us-section .contact-us-form {padding-right: 70px;}
+.contact-us-section .contact-us-form input[type="text"],
+.contact-us-section .contact-us-form input[type="email"],
+.contact-us-section .contact-us-form textarea {
+  margin-bottom: 25px;
+}
+
+
+.services_area h2 {
+  font: 50px/62px "Work Sans", sans-serif;
+  font-weight: bold;
+}
+.best_agency_area .agency_text h2 {
+  font: 50px/62px "Work Sans", sans-serif;
+  font-weight: bold;
+}
+.best_agency_area .agency_text p {
+  font: 500 22px/40px "Work Sans", sans-serif;
+  padding-top: 28px;
+}
+.best_agency_area strong {
+  font: 22px/35px "Work Sans", sans-serif;
+  letter-spacing: 1.3px;
+  font-weight: bold;
+}
+
+
+
+
 
 }
 
