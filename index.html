@@ -5,15 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="icon" href="images/fav.png" type="image/fav-icon" />
     <title>Codinism Inc | Web & IT Solution Company</title> 
-    
     <!-- Theme style CSS -->       
     <link href="css/style.css" rel="stylesheet"> 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
 </head>
+
 <body>
    
     <!-- Header Area -->
@@ -30,10 +27,10 @@
                     <div class="collapse navbar-collapse navbar_supported">
                         <ul class="navbar-nav"> 
                             <li><a class="nav-link" href="index.html">Home</a></li>  
-                            <li><a class="nav-link" href="#">Services</a></li>  
-                            <li><a class="nav-link" href="#">Products</a></li>  
-                            <li><a class="nav-link" href="#">About Us</a></li>  
-                            <li><a class="nav-link" href="#">Conatct</a></li>     
+                            <li><a class="nav-link" href="#service">Services</a></li>  
+                            <li><a class="nav-link" href="#about_us">About Us</a></li>  
+                            <li><a class="nav-link" href="#products">Products</a></li>  
+                            <li><a class="nav-link" href="#contact">Conatct</a></li>     
                         </ul>   
                     </div>
 
@@ -43,10 +40,12 @@
     </header>
     <!-- Header Area -->  
 
-
-    <div id="parallax">
+    <div id="parallax"><!-- Parallax Div --> 
     <!-- Banner Area -->   
     <section class="banner_area">  
+            <img src="images/parallax-layer/banner-bg.png" alt="" class="layer banner_bg" data-depth="0.35"> 
+            <img src="images/parallax-layer/banner-layer-1.png" alt="" class="layer layer_1" data-depth="0.60"> 
+            <img src="images/parallax-layer/banner-layer-2.png" alt="" class="layer layer_2"  data-depth="0.55"> 
         <div class="max">
             <h2 class="wow fadeInUp">Build a business </br> while building an app </h2>
             <p class="wow fadeInUp" data-wow-delay="0.3s">Transform idea to business with innovative app and website.</p>
@@ -55,10 +54,9 @@
     </section>
     <!-- End Banner Area -->    
 
-    
     <!-- Our Services Area -->
-    <section class="services_area">
-       
+    <section class="services_area" id="service">
+            <img src="images/parallax-layer/services_area-bg.png" alt="" class="layer layer_1" data-depth="0.40"> 
         <div class="container">
             <h2>What We Do</h2>
             <div class="services_row row">
@@ -81,7 +79,7 @@
                             <p>Graphical user interfaces (GUI) accept input via devices such as a computer keyboard and mouse and provide articulated graphical output</p>
                         </div>
                     </div>
-                </div>
+                </div>  
                 <!-- Services items -->
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="services_items media">
@@ -104,15 +102,16 @@
                 </div>
             </div>
         </div>
+        <img src="images/parallax-layer/services_area-bg2.png" alt="" class="layer layer_1" data-depth="2.20"> 
     </section>
     <!-- End Our Services Area -->    
 
 <!-- About Section -->   
-<section class="best_agency_area">
+<section class="best_agency_area" id="about_us">
     <div class="max">
         <div class="row">
-           <div class="col-lg-5 agency_img"><img src="images/about_us.png" alt=""></div>
-            <div class="col-lg-6 agency_text">
+           <div class="col-lg-5 agency_img wow bounceInLeft"><img src="images/about_us.png" alt=""></div>
+            <div class="col-lg-6 agency_text wow fadeInUp">
                 <h2>About Us</h2>
                 <p>Codinism is a chicago based company specializes is business development for startups. Wetake care of the fluidness of the business idea. We provide suppoort and act like your in house technology team. To start a conversation.</p>
                 <strong>Codinism@Gmail.com</strong>                 
@@ -125,12 +124,12 @@
 <!-- End About Section -->  
 
     <!-- Feature Work Section -->  
-    <section class="feature_work_area"> 
-
+    <section class="feature_work_area" id="products"> 
+     <img src="images/parallax-layer/feature-work-bg.png" alt="" class="layer layer_1" data-depth="0.45"> 
         <div class="max_header">
           <div class="container"> <h2 class="tittle">Our Product</h2></div>
             <div class="row">
-                <div class="col-lg-5 feature_content wow bounceInLeft">
+                <div class="col-lg-5 feature_content wow bounceInLeft" data-wow-delay="0.3s">
                     <h2>Programming Hero</h2>
                     <p>Programming Hero is a gorund-breaking app to teach programming with fun and exciting stories.</p>
                    <!-- <a href="#" class="theme_btn">Play Store</a> -->
@@ -150,8 +149,7 @@
 
 
  <!-- Start Footer Area -->  
-
- <footer class="footer_area">
+ <footer class="footer_area" id="contact">
     <div class="container">
         <div class="footer_inner row"> 
             <div class="col-lg-5 col-md-6 footer_logo">
@@ -168,7 +166,6 @@
 
 
 <!-- Start Conatct Us -->
-
    <div class="col-lg-7">
     <div class="contact-us-section">
       <div class="container">
@@ -206,7 +203,6 @@
         </div> 
       </div> 
     </div> 
-
      <!-- END contact-us-section -->
 
         </div>
@@ -216,15 +212,23 @@
         <p>Copyrights © 2018 <a href="#">Codinism</a> Inc</p> 
     </div>
 </footer>
-
 <!-- End Footer Area --> 
-
     
-    <!-- jQuery v3.3.1 -->
-    <script src="js/jquery-3.3.1.min.js"></script>    
-    <!-- Bootstrap v4.0.0 -->
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>  
+    <!-- Scroll Top Button -->
+    <button class="scroll-top">
+            <i class="fa fa-angle-double-up"></i>
+        </button>
+        
+        <!-- jQuery v3.3.1 -->
+        <script src="js/jquery-3.3.1.min.js"></script>    
+        <script src="vendors/parallaxmouse/parallax.min.js"></script> 
+        <!-- Bootstrap v4.0.0 -->
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>  
+        <!-- Extra Plugin -->
+
+        <script src="vendors/animate-css/wow.min.js"></script> 
+        <script src="js/theme.js"></script>
     
 </body>
 </html>

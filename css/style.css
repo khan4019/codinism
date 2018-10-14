@@ -1,4 +1,42 @@
 @charset "UTF-8";
+/*----------------------------------------------------*/
+/*font Variables*/
+/*Color Variables*/
+/* Button Style */
+@import url(../css/bootstrap.min.css);
+@import url(../css/font-awesome.min.css);
+@import url(../vendors/flat-icon/flaticon.css);
+@import url(../vendors/animate-css/animate.css);
+@import url(../vendors/bootstrap-selector/nice-select.css);
+@import url("https://fonts.googleapis.com/css?family=Muli:400,600,700|Work+Sans:400,500,600,700|Dancing+Script:400,700");
+.theme_btn {
+  color: #fff;
+  background: #8c4eff;
+  text-align: center !important;
+  font: 600 18px/55px "Muli", sans-serif;
+  display: inline-block;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 0 20px;
+  min-width: 222px;
+  z-index: 1;
+}
+.theme_btn:hover, .theme_btn:focus, .theme_btn.active {
+  background: #b76dfe;
+  color: #fff;
+}
+
+/* Tittle */
+.tittle {
+  font: 600 45px/62px "Work Sans", sans-serif;
+  color: #282828;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Work Sans", sans-serif;
@@ -1031,7 +1069,9 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   height: 50px;
   width: 50px;
   cursor: pointer;
-  background: #8c4eff;
+  background: #4ac3e6;
+  border-radius: 25px;
+  font-size: 22px;
   border: 0;
   box-shadow: none;
   z-index: 999;
