@@ -1126,13 +1126,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 .footer_area .footer_inner .footer_logo {
   padding-left: 50px;
 }
-
 }
-
-
-
-
-
 
 
 /*--------------------------------------------*/
@@ -1152,7 +1146,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .max_header {
     padding: 0 55px 0 96px;
 }
