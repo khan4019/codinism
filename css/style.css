@@ -1161,7 +1161,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   max-width: 170px;
 }
 .footer_logo p {
-  font: 500 22px/36px "Work Sans", sans-serif !important;
+  font: 500 20px/36px "Work Sans", sans-serif !important;
 }
 .footer_area .footer_inner .footer_logo {
   padding-left: 50px;
@@ -1188,7 +1188,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
 @media (max-width: 1440px) {
   .max_header {
-    padding: 0 55px 0 96px;
+    padding: 0 110px 0 96px;
 }
 .max {
   padding-left: 98px;
@@ -1198,50 +1198,39 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   color: #3F4370;
   max-width: 620px;
 }
-
 .banner_area p {
   font: 600 21px/100px "Muli", sans-serif;
   color: rgba(41, 41, 41, 0.8);
   padding-top: 5px;
   padding-bottom: 10px;
 }
-
 .banner_area {
   background-size: 64%;
   padding-bottom: 0;
   padding: 265px 0 230px;
 }
-
-
 .main_header_area {
   padding-top: 22px;
 }
-
 .main_header_area .header_menu .navbar .navbar_supported ul li a {
   margin: 0 17px;
   font: 400 18px/55px "Work Sans", sans-serif;
 }
-
 .main_header_area .header_menu .navbar .navbar-brand img {
   max-width: 185px;
 }
-
-
 .services_area {
   padding-top: 115px;
 }
-
 .agency_img img{
   width: 580px;
 }
 .best_agency_area .agency_text {
   padding-left: 95px;
 }
-
 .feature_work_area .feature_img img{
   width: 610px;
 }
-
 .feature_work_area .feature_content h2 {
   letter-spacing: 1.2px;
   font: 40px/20px "Work Sans", sans-serif;
@@ -1250,17 +1239,14 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 .feature_work_area .tittle {
   padding-bottom: 15px;
 }
-
 .feature_work_area .feature_content .theme_btn_googleplay {
   width: 190px;
 }
-
 
 .feature_work_area .feature_content p {
   font: 500 22px/40px "Work Sans", sans-serif;
   padding-bottom: 70px;
 }
-
 .footer_area .footer_inner .footer_logo p {
   font: 500 23px/36px "Work Sans", sans-serif;
 }
@@ -1291,7 +1277,9 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   font-weight: bold;
 }
 
-
+.scroll-top {
+  right: 60px;
+}
 
 
 
