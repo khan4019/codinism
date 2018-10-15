@@ -5,9 +5,9 @@
 /* Button Style */
 @import url(../css/bootstrap.min.css);
 @import url(../css/font-awesome.min.css);
-@import url(../vendors/flat-icon/flaticon.css);
-@import url(../vendors/animate-css/animate.css);
-@import url(../vendors/bootstrap-selector/nice-select.css);
+@import url(../assets/flat-icon/flaticon.css);
+@import url(../assets/animate-css/animate.css);
+@import url(../assets/bootstrap-selector/nice-select.css);
 @import url("https://fonts.googleapis.com/css?family=Muli:400,600,700|Work+Sans:400,500,600,700|Dancing+Script:400,700");
 .theme_btn {
   color: #fff;
