@@ -1069,7 +1069,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   height: 50px;
   width: 50px;
   cursor: pointer;
-  background: #4ac3e6;
+  background: #5871ef;
   border-radius: 25px;
   font-size: 22px;
   border: 0;
@@ -1078,7 +1078,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   color: #fff;
 }
 .scroll-top:hover, .scroll-top:focus {
-  background: #ce8506;
+  background: #4ac3e6;
 }
 
 
