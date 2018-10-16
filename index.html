@@ -146,84 +146,85 @@
 </div>
 <!-- End Parallax -->  
     
- <!-- Start Footer Area -->  
- <footer class="footer_area" id="contact">
-    <div class="container">
-        <div class="footer_inner row"> 
-            <div class="col-lg-5 col-md-6 footer_logo wow fadeInUp" data-wow-delay="0.3s">
-                <a href="index.html"><img src="images/footer_logo.png" alt=""></a> 
-                <p>Don’t Hesitate to contact with us </br> for any kind of information </p>
-                <h6><i class="fa fa-location-arrow"></i>Chicago, IL- 60606, USA</h6> 
-                <ul class="footer_social"> 
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
-                </ul>
-            </div>
-
-<!-- Start Conatct Us -->
-   <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.3s">
-    <div class="contact-us-section">
-      <div class="container">
-        <div class="row">
-            <form action="inc/sendemail.php" class="contact-us-form form-validation" auto-complete="off">
-              <input type="email" placeholder="Email Address*" name="email">
-              <input type="text" placeholder="Subject*" name="sub">
-              <textarea placeholder="Your Message*" name="message"></textarea>
-              <div class="theme-button">
-                <span></span>
-                <input type="submit" value="Submit">
-              </div>
-            </form>
-
-            <!--Contact Form Validation Markup -->
-            <!-- Contact alert -->
-            <div class="alert-wrapper" id="alert-success">
-              <div id="success">
-                <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
-                <div class="wrapper">
-                          <p>Your message was sent successfully.</p>
-                       </div>
-                  </div>
-              </div> 
-              <div class="alert-wrapper" id="alert-error">
-                  <div id="error">
-                      <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
-                      <div class="wrapper">
-                          <p>Sorry!Something Went Wrong.</p>
-                      </div>
-                  </div>
-              </div> 
-          </div> 
-
-        </div> 
-      </div> 
-    </div> 
-     <!-- END contact-us-section -->
-
-        </div>
-    </div> 
-     
-    <div class="copy_right"> 
-        <p>Copyrights © 2018 <a href="#">Codinism</a> Inc</p> 
-    </div>
-</footer>
-<!-- End Footer Area --> 
+  <!-- Start Footer Area -->  
+  <footer class="footer_area" id="contact">
+        <div class="container">
+            <div class="footer_inner row"> 
+                <div class="col-lg-5 col-md-6 footer_logo wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="index.html"><img src="images/footer_logo.png" alt=""></a> 
+                    <p>Don’t Hesitate to contact with us </br> for any kind of information </p>
+                    <h6><i class="fa fa-location-arrow"></i>Chicago, IL- 60606, USA</h6> 
+                    <ul class="footer_social"> 
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+                    </ul>
+                </div>
     
-    <!-- Scroll Top Button -->
-    <button class="scroll-top wow fadeInUp" data-wow-delay="2.5s">
-            <i class="fa fa-angle-double-up"></i>
-        </button>
+    <!-- Start Conatct Us -->
+       <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="contact-us-section">
+          <div class="container">
+            <div class="row">
+                <form action="inc/sendemail.php" class="contact-us-form form-validation" onSubmit="return check_Email(this)">
+                  <input class="hover-tooltip" name="email" type="email" placeholder="Email Address*" data-toggle="tooltip" data-placement="left" title="*Enter Your Email" required="true">
+                  <input type="text" placeholder="Subject*" name="subj" required="true">
+                  <textarea placeholder="Your Message*" name="message" required="true"></textarea>
+                  <div class="theme-button">
+                    <span></span>
+                    <input id="submit" type="submit" value="Submit">
+                  </div>
+                </form>
+    
+                <!--Contact Form Validation Markup -->
+                <!-- Contact alert -->
+                <div class="alert-wrapper" id="alert-success">
+                  <div id="success">
+                    <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+                    <div class="wrapper">
+                              <p>Your message was sent successfully.</p>
+                           </div>
+                      </div>
+                  </div> 
+                  <div class="alert-wrapper" id="alert-error">
+                      <div id="error">
+                          <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+                          <div class="wrapper">
+                              <p>Sorry!Something Went Wrong.</p>
+                          </div>
+                      </div>
+                  </div> 
+              </div> 
+    
+            </div> 
+          </div> 
+        </div> 
+         <!-- END contact-us-section -->
+
+            </div>
+        </div> 
+         
+        <div class="copy_right"> 
+            <p>Copyrights © 2018 <a href="#">Codinism</a> Inc</p> 
+        </div>
+    </footer>
+    <!-- End Footer Area --> 
         
-        <!-- jQuery v3.3.1 -->
+        <!-- Scroll Top Button -->
+        <button class="scroll-top wow fadeInUp" data-wow-delay="2.5s">
+                <i class="fa fa-angle-double-up"></i>
+            </button>
+            
+
+            <!-- jQuery v3.3.1 -->
         <script src="js/jquery-3.3.1.min.js"></script>    
         <script src="assets/parallaxmouse/parallax.min.js"></script> 
         <!-- Bootstrap v4.0.0 -->
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>  
         <!-- Extra Plugin -->
-
+        <script src="js/validator.js"></script>
         <script src="assets/animate-css/wow.min.js"></script> 
         <script src="js/theme.js"></script>
     

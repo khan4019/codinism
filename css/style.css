@@ -930,10 +930,22 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 .form-validation label.error {display: none !important;}
 .form-validation textarea.error,
 .form-validation input.error {border-bottom:2px solid #f65353 !important;}
-/*---------------------- Google-map ------------------*/
 
 
+/*---------------------- End Form validation ------------------*/
 
+.tooltip {
+  font-family: Georgia;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tooltip .tooltip-inner {
+  background-color: #d2d9ff;
+  color: #3f4370;
+  padding: 14px;
+
+}
 
 /* Email_us */
 /* Footer Home pages */
