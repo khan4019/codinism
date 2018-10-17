@@ -366,10 +366,10 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .main_header_area.navbar_fixed .navbar .navbar_supported ul li a {
   line-height: 50px;
-  color: #ffffff;
+  color: #3f4370;
 }
 .main_header_area.navbar_fixed .navbar .navbar_supported ul li a:hover, .main_header_area.navbar_fixed .navbar .navbar_supported ul li a:focus {
-  color: #f1eff3;
+  color: #2e3157;
 }
 .main_header_area.navbar_fixed .navbar .navbar_supported ul li a.theme_btn {
   background: #b76dfe;
@@ -704,7 +704,6 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
    padding-top: 55px;
  }
  
-  /*----------------------------------------------------*/
  /* End About Section */
  /*----------------------------------------------------*/
 
@@ -1166,7 +1165,18 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 @media (min-width: 1920px) {
   .banner_area {
     padding: 365px 0 360px !important;
-
+}
+.best_agency_area .agency_text {
+  padding-top: 200px;
+  padding-left: 75px;
+}
+.best_agency_area .agency_img img {
+  height: 92%;
+  left: -10px;
+}
+.header_tilete {
+  top: 0px;
+  margin-left: -15px;
 }
 }
 /*--------------------------------------------*/
