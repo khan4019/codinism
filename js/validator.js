@@ -11,7 +11,7 @@ function check_Email(mail) {
     }
 
   }
-  $(document).ready(function() {
+  $(document).ready(function() { 
     $(".hover-tooltip").tooltip({
         disabled: false
     });

@@ -85,11 +85,12 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   text-decoration: none;
   transition: all 300ms linear 0s;
 }
-.max{
-  padding-left: 150px;
-}
+
 .max_header{
       padding: 0 155px 0 152px;
+}
+.header_tilete{
+  top: -80px;
 }
 #parallax {
   overflow: hidden;
@@ -176,6 +177,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
     opacity: 0;
   }
 }
+
 /*----------------------------------------------------*/
 /* Min header area */
 .main_header_area {
@@ -188,7 +190,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 .main_header_area .header_menu {
   display: flex;
   justify-content: space-between;
-  padding: 24px 0;
+  padding: 20px 0;
 }
 .main_header_area .header_menu .navbar {
   padding: 0;
@@ -364,10 +366,10 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .main_header_area.navbar_fixed .navbar .navbar_supported ul li a {
   line-height: 50px;
-  color: #282828;
+  color: #3f4370;
 }
 .main_header_area.navbar_fixed .navbar .navbar_supported ul li a:hover, .main_header_area.navbar_fixed .navbar .navbar_supported ul li a:focus {
-  color: #8c4eff;
+  color: #2e3157;
 }
 .main_header_area.navbar_fixed .navbar .navbar_supported ul li a.theme_btn {
   background: #b76dfe;
@@ -488,14 +490,18 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 .banner_area {
   background: url(../images/top-banner-bg-2.png) no-repeat top right;
   background-size: contain;
+  height: 100%;
   display: block;
   overflow: hidden;
   /*  padding: 365px 0 230px; */
-  padding: 372px 0 263px;
+  /*padding: 372px 0 263px; */
+  padding: 365px 0 210px;
   position: relative;
   z-index: 1;
 }
+
 .banner_area .banner_bg {
+  height: 100%;
   position: absolute !important;
   left: 0 !important;
   top: 0 !important;
@@ -516,19 +522,14 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .banner_area h2 {
   /* font: 700 65px/75px "Work Sans", sans-serif; */
-  font: 700 69px/94px "Work Sans", sans-serif;
+  font: 700 65px/85px "Work Sans", sans-serif;
   color: #3F4370;
-  /*  max-width: 620px; */
-  padding-top: 20px;
-  max-width: 750px;
-
 }
 .banner_area p {
-  font: 600 28px/38px "Muli", sans-serif;
+  font: 600 22px "Muli", sans-serif;
     color: rgba(41, 41, 41, 0.8);
     /* max-width: 874px; */
-    padding-top: 55px;
-    padding-bottom: 130px;
+    padding-top: 35px;
 }
 
 .ba_2 {
@@ -577,9 +578,9 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
 .services_area {
   display: block;
-  padding-top: 170px;
+  padding-top: 100px;
   position: relative;
-  padding-bottom: 80px;
+  padding-bottom: 85px;
   z-index: 1;
 }
 .services_area .layer_1 {
@@ -658,11 +659,11 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 .sa_3 {
   padding-bottom: 140px;
 }
- /*----------------------------------------------------*/
+
 /* End Services_area */
  /*----------------------------------------------------*/
 
-/*----------------------------------------------------*/
+
 /* Start About Section */
  /*----------------------------------------------------*/
 .best_agency_area {
@@ -670,8 +671,8 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
      padding: 30px 0 60px 0px;
  }
  .best_agency_area .agency_text {
-   padding-top: 130px;
-   padding-left: 130px;
+   padding-top: 140px;
+   padding-left: 30px;
  }
  .best_agency_area .agency_text h2 {
      font: 52px/62px "Work Sans", sans-serif;
@@ -685,10 +686,8 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
  .best_agency_area .agency_text p {
   /* font: 400 22px/38px "Work Sans", sans-serif; */
-   font: 500 25px/40px "Work Sans", sans-serif;
+   font: 500 23px/40px "Work Sans", sans-serif;
    color: rgba(36, 36, 37, 0.702);
-   max-width: 585px;
-   padding-top: 50px;
  }
  .best_agency_area strong{
      font: 25px/35px "Work Sans", sans-serif;
@@ -703,10 +702,8 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
  }
  .best_agency_area .agency_img {
    padding-top: 55px;
-   padding-left: 0;
  }
  
-  /*----------------------------------------------------*/
  /* End About Section */
  /*----------------------------------------------------*/
 
@@ -718,7 +715,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   display: block;
   overflow: hidden;
   position: relative;
-      padding: 155px 0 155px 0;
+  padding: 155px 0 115px 0;
 }
 .feature_work_area .layer_1 {
   top: 320px !important;
@@ -732,17 +729,14 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
     font-weight: bold;
 }
 
-.feature_work_area .feature_img img {
-
-}
 .feature_work_area .feature_content {
-  padding-left: 35px;
   padding-top: 135px;
+  padding-left: 30px;
 }
 .feature_work_area .feature_content h2 {
     color: #7c3197;
     letter-spacing: 1.4px;
-    font: 52px/60px "Work Sans", sans-serif;
+    font: 52px "Work Sans", sans-serif;
     font-weight: bold;
 }
 .feature_work_area .feature_content p {
@@ -759,11 +753,15 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .feature_work_area .feature_content .theme_btn_googleplay{
   width: 280px;
+  margin-bottom: 45px;
   cursor: pointer;
   border-radius: 10px;
   /* box-shadow: 0px 8px 30px 0px rgba(170, 130, 244, 0.35); */
     box-shadow: 0px 7px 30px 0px rgba(64, 53, 92, 0.48);
-    
+}
+
+.feature_work_area .feature_img img{
+  margin-top: 20px;
 }
 
 .fwa_2 {
@@ -792,14 +790,8 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
 
 
-
-.box-sizing(@boxmodel) {
-  -webkit-box-sizing: @boxmodel;
-     -moz-box-sizing: @boxmodel;
-          box-sizing: @boxmodel;
-}
 .contact-us-section{
-      padding-left: 40px;
+      padding-left: 10px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -1076,7 +1068,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 /* End Footer Home pages */
 .scroll-top {
   position: fixed;
-  right: 30px;
+  right: 10px;
   bottom: 15px;
   height: 50px;
   width: 50px;
@@ -1088,6 +1080,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   box-shadow: none;
   z-index: 999;
   color: #fff;
+  display: none;
 }
 .scroll-top:hover, .scroll-top:focus {
   background: #4ac3e6;
@@ -1105,13 +1098,9 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   font: 500 15px/55px "Work Sans", sans-serif !important;
 }
 
-.max {
-  padding-left: 75px !important;
-}
 .banner_area h2 {
   font: 700 38px/51px "Work Sans", sans-serif !important;
   color: #434672;
-  padding-top: 0px;
   letter-spacing: .5px !important;
 }
 .banner_area {
@@ -1119,8 +1108,8 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   background-size: 65% !important;
 }
 .banner_area p {
-  font: 600 16px/76px "Muli", sans-serif !important;
-  padding-top: 5px;
+  font: 600 17px "Muli", sans-serif !important;
+  padding-top: 35px;
 }
 .max_header {
   padding: 0 55px 0 75px !important;
@@ -1138,10 +1127,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   font: 700 40px/62px "Work Sans", sans-serif !important;
 }
 .agency_img img {
-  max-width: 430px;
-}
-.best_agency_area .agency_text {
-  padding: 70px 0 0 65px !important;
+  width: 100%;
 }
 .best_agency_area .agency_text p {
   font: 500 20px/40px "Work Sans", sans-serif !important;
@@ -1155,15 +1141,9 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   font: 700 42px/62px "Work Sans", sans-serif !important;
   letter-spacing: 1px;
 }
-.feature_work_area .feature_img img {
-  max-width: 500px;
-}
-.feature_work_area .feature_content h2 {
-  letter-spacing: 1.2px;
-  font: 700 32px/20px "Work Sans", sans-serif !important;
-}
+
 .feature_work_area .feature_content {
-  padding-top: 105px;
+  padding-top: 5px;
 }
 .feature_content p {
   padding-bottom: 45px !important;
@@ -1180,12 +1160,43 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 }
 
-
 /*--------------------------------------------*/
+
+@media (min-width: 1920px) {
+  .banner_area {
+    padding: 365px 0 360px !important;
+}
+.best_agency_area .agency_text {
+  padding-top: 200px;
+  padding-left: 75px;
+}
+.best_agency_area .agency_img img {
+  height: 92%;
+  left: -10px;
+}
+.header_tilete {
+  top: 0px;
+  margin-left: -15px;
+}
+}
+/*--------------------------------------------*/
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+@media screen and (max-width: 768px) {
+  #content-desktop {display: none;}
+  #content-mobile {display: block;}
+.scroll-top{
+  display:none;
+}
+.feature_work_area .tittle {
+  margin-bottom: 50px;
+}
+
+  }
 
 @media (min-width: 1400px) {
   .banner_area {
-    background-size: 65%;
+    background-size: 64%;
   }
 
   .ba_2 .banner_img, .ba_3 .banner_img {
@@ -1202,24 +1213,19 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   .max_header {
     padding: 0 110px 0 96px;
 }
-.max {
-  padding-left: 98px;
-}
+
 .banner_area h2 {
   font: 700 50px/74px "Work Sans", sans-serif;
   color: #3F4370;
-  max-width: 620px;
+
 }
 .banner_area p {
-  font: 600 21px/100px "Muli", sans-serif;
+  font: 600 22px "Muli", sans-serif;
   color: rgba(41, 41, 41, 0.8);
-  padding-top: 5px;
-  padding-bottom: 10px;
+  padding-top: 30px;
 }
 .banner_area {
   background-size: 64%;
-  padding-bottom: 0;
-  padding: 265px 0 230px;
 }
 .main_header_area {
   padding-top: 22px;
@@ -1231,17 +1237,12 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 .main_header_area .header_menu .navbar .navbar-brand img {
   max-width: 185px;
 }
-.services_area {
-  padding-top: 115px;
-}
+
 .agency_img img{
-  width: 580px;
-}
-.best_agency_area .agency_text {
-  padding-left: 95px;
+  width: 100%;
 }
 .feature_work_area .feature_img img{
-  width: 610px;
+  width: 100%;
 }
 .feature_work_area .feature_content h2 {
   letter-spacing: 1.2px;
@@ -1263,7 +1264,8 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   font: 500 23px/36px "Work Sans", sans-serif;
 }
 
-.contact-us-section .contact-us-form {padding-right: 70px;}
+.contact-us-section .contact-us-form {padding-right: 10px;}
+
 .contact-us-section .contact-us-form input[type="text"],
 .contact-us-section .contact-us-form input[type="email"],
 .contact-us-section .contact-us-form textarea {
@@ -1289,14 +1291,6 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   font-weight: bold;
 }
 
-.scroll-top {
-  right: 60px;
-}
-
-
-
-}
-
 @media (max-width: 991px) {
   .main_header_area {
     padding: 0;
@@ -1311,7 +1305,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   }
   .main_header_area .header_menu .navbar .navbar-toggler {
     font-size: 30px;
-    color: #fff;
+    color: #5871ef;
     padding: 0;
     margin: 0;
     line-height: 62px;
@@ -1326,12 +1320,12 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
     margin: 0;
     max-height: 370px;
     overflow-y: auto;
-    background: #8c4eff;
-    border: 1px dashed #fff;
+    background: #5871ef;
+    border-bottom: 1px dashed #c1c1c1;
     padding-left: 0 !important;
   }
   .main_header_area .header_menu .navbar .navbar-nav li {
-    border-bottom: 1px dashed #fff;
+    border-bottom: 1px dashed #c1c1c1;
   }
   .main_header_area .header_menu .navbar .navbar-nav li:last-child {
     border: 0;
@@ -1408,9 +1402,6 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
     font-size: 40px;
     line-height: 45px;
   }
-  .banner_area p {
-    padding-bottom: 50px;
-  }
 
 
   .services_area {
@@ -1421,7 +1412,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   }
 
   .best_agency_area .agency_text {
-    padding-top: 0;
+    padding-top: 35px;
   }
 
   .feature_work_area {
