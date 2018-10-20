@@ -16,7 +16,7 @@
    
     <!-- Header Area -->
     <header class="main_header_area"> 
-            <div class="container">
+            <div class="container head-container">
             <div class="header_menu"> 
                 <nav class="navbar navbar-expand-lg"> 
                     <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a> 
@@ -49,7 +49,7 @@
             <img src="images/parallax-layer/banner-layer-2.png" alt="" class="layer layer_2"  data-depth="0.55"> 
             
       
-        <div class="container">
+        <div class="container head-container">
                 <div class="col-lg-7 header_tilete">
             <h2 class="wow fadeInLeft" data-wow-delay="0.3s">Build a business </br> while building an app </h2>
             <p class="wow fadeInUp" data-wow-delay="0.7s">Transform idea to business with innovative Application.</p>
@@ -62,7 +62,7 @@
     <!-- Our Services Area -->
     <section class="services_area" id="service">
             <img src="images/parallax-layer/services_area-bg.png" alt="" class="layer layer_1" data-depth="0.40"> 
-        <div class="container">
+        <div class="container section-container">
             <h2>What We Do</h2>
             <div class="services_row row">
                 <!-- Services items -->
@@ -107,16 +107,16 @@
                 </div>
             </div>
         </div>
-        <img src="images/parallax-layer/services_area-bg2.png" alt="" class="layer layer_1" data-depth="2.20"> 
+     <!--   <img src="images/parallax-layer/services_area-bg2.png" alt="" class="layer layer_1" data-depth="2.20"> -->    
     </section>
     <!-- End Our Services Area -->    
 
 <!-- About Section -->   
 <section class="best_agency_area" id="about_us">
-    <div class="container">
+    <div class="container section-container">
         <div class="row">
-           <div class="col-lg-6 agency_img wow bounceInLeft"><img src="images/about_us.png" alt=""></div>
-            <div class="col-lg-6 agency_text wow fadeInUp">
+           <div class="col-lg-6 agency_img wow bounceInLeft" data-wow-delay="0.50s"><img src="images/about_us.png" alt=""></div>
+            <div class="col-lg-6 agency_text wow fadeInUp" data-wow-delay="0.20s">
                 <h2>About Us</h2>
                 <p>Codinism is a chicago based company specializes is business development for startups. Wetake care of the fluidness of the business idea. We provide suppoort and act like your in house technology team. To start a conversation.</p>
                 <strong>Codinism@Gmail.com</strong>                 
@@ -132,10 +132,10 @@
     <section class="feature_work_area" id="products"> 
 
      <img src="images/parallax-layer/feature-work-bg.png" alt="" class="layer layer_1" data-depth="0.45"> 
-        <div class="container">
+        <div class="container section-container">
             <h2 class="tittle">Our Product</h2>
             <div class="row">
-                <div class="col-lg-6 feature_content wow bounceInLeft" data-wow-delay="0.3s">
+                <div class="col-lg-6 feature_content wow bounceInLeft" data-wow-delay="0.45s">
                     <h2>Programming Hero</h2>
                     <p>Programming Hero is a gorund-breaking app to teach programming with fun and exciting stories.</p>
                    <!-- <a href="#" class="theme_btn">Play Store</a> -->
@@ -156,7 +156,7 @@
     
   <!-- Start Footer Area -->  
   <footer class="footer_area" id="contact">
-        <div class="container">
+        <div class="container section-container">
             <div class="footer_inner row"> 
                 <div class="col-lg-6 footer_logo wow fadeInUp" data-wow-delay="0.3s">
                     <a href="index.html"><img src="images/logo.png" alt=""></a> 
@@ -175,15 +175,33 @@
         <div class="contact-us-section">
           <div class="container">
             <div class="row">
-                <form action="inc/sendemail.php" class="contact-us-form form-validation" onSubmit="return check_Email(this)">
+                <form action="inc/sendemail.php" method="post" id="form" class="contact-us-form form-validation" onSubmit="return check_Email(this)">
                   <input class="hover-tooltip" name="email" type="email" placeholder="Email Address*" data-toggle="tooltip" data-placement="left" title="*Enter Your Email" required="true">
-                  <input type="text" placeholder="Subject*" name="subj" required="true">
+                  <input type="text" placeholder="Subject*" name="sub" required="true">
                   <textarea placeholder="Your Message*" name="message" required="true"></textarea>
                   <div class="theme-button">
                     <span></span>
                     <input id="submit" type="submit" value="Submit">
                   </div>
                 </form>
+
+                        <!-- .modal -->
+        <div class="modal fade" id="Mymodal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Notification</h4>  
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>                                                            
+                    </div> 
+                    <div class="modal-body">
+                        Congrats! Your email has been send send
+                    </div>   
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                               
+                    </div>
+                </div>                                                                       
+            </div>                                          
+        </div>
     
                 <!--Contact Form Validation Markup -->
                 <!-- Contact alert -->
