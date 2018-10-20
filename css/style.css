@@ -918,7 +918,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
 
 #Mymodal {
-  padding-top: 55px;
+  padding-top: 65px;
   z-index: 100000;
 }
 .modal-body {
