@@ -788,41 +788,6 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
 /*END Feature_work_section */
 
-#Mymodal {
-  padding-top: 55px;
-  z-index: 100000;
-}
-.modal-body {
-  position: relative;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  color: darkgreen;
-  font-size: 17px;
-  padding: 1rem;
-}
-.modal-title {
-  margin-bottom: 0;
-  line-height: 1.5;
-  font-size: 22px;
-  color: #3f4370;
-}
-.modal-body {
-  position: relative;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  color: darkgreen;
-  font-size: 17px;
-  padding: 1rem;
-}
-
-.contact-us-section{
-      padding-left: 10px;
-      padding-right: 10px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 /*----------------------- Conatct Us ----------------------*/
 .contact-us-section .contact-us-form {padding-right: 70px;}
 .contact-us-section .contact-us-form input[type="text"],
@@ -949,8 +914,44 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 .form-validation textarea.error,
 .form-validation input.error {border-bottom:2px solid #f65353 !important;}
 
-
 /*---------------------- End Form validation ------------------*/
+
+
+#Mymodal {
+  padding-top: 55px;
+  z-index: 100000;
+}
+.modal-body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  color: darkgreen;
+  font-size: 17px;
+  padding: 1rem;
+}
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-size: 22px;
+  color: #3f4370;
+}
+.modal-body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  color: darkgreen;
+  font-size: 17px;
+  padding: 1rem;
+}
+
+.contact-us-section{
+      padding-left: 10px;
+      padding-right: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 
 .tooltip {
   font-family: Georgia;
