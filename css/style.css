@@ -4,7 +4,6 @@
 /*Color Variables*/
 /* Button Style */
 @import url(../css/bootstrap.min.css);
-@import url(../css/font-awesome.min.css);
 @import url(../assets/flat-icon/flaticon.css);
 @import url(../assets/animate-css/animate.css);
 @import url(../assets/bootstrap-selector/nice-select.css);
@@ -618,7 +617,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 .services_area .services_row .services_items .services_icons i:before {
   line-height: 50px;
   color: #fff;
-  font-size: 21px;
+  font-size: 30px;
 }
 .services_area .services_row .services_items .si_2 {
   background: #a1a9fa;
@@ -1086,7 +1085,12 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   background: #4ac3e6;
 }
 
-
+@media (max-width: 1281px){
+  .main_header_area .header_menu .navbar .navbar_supported ul li a {
+    margin: 0 13px !important;
+    font: 400 17px/55px "Work Sans", sans-serif !important;
+  }
+}
 /*--------------------------------------------*/
 
 @media (max-width: 1024px) {
@@ -1094,8 +1098,8 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
     padding-top: 0px !important;
 }
 .main_header_area .header_menu .navbar .navbar_supported ul li a {
-  margin: 0 13px !important;
-  font: 500 15px/55px "Work Sans", sans-serif !important;
+  margin: 0 12px !important;
+  font: 400 17px/55px "Work Sans", sans-serif !important;
 }
 
 .banner_area h2 {
