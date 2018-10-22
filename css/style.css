@@ -184,7 +184,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   width: 100%;
   z-index: 9999;
   position: absolute;
-  padding-top: 55px;
+  padding-top: 40px;
 }
 .main_header_area .header_menu {
   display: flex;
@@ -521,7 +521,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .banner_area h2 {
   /* font: 700 65px/75px "Work Sans", sans-serif; */
-  font: 700 65px/85px "Work Sans", sans-serif;
+  font: 700 62px/85px "Work Sans", sans-serif;
   color: #3F4370;
 }
 .banner_area p {
@@ -700,7 +700,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
    margin-top: 90px;
  }
  .best_agency_area .agency_img {
-   padding-top: 55px;
+   padding-top: 20px;
  }
  
  /* End About Section */
@@ -761,6 +761,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
 .feature_work_area .feature_img img{
   margin-top: 20px;
+  width: 100%;
 }
 
 .fwa_2 {
@@ -786,15 +787,6 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 
 /*END Feature_work_section */
-
-
-
-.contact-us-section{
-      padding-left: 10px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 /*----------------------- Conatct Us ----------------------*/
 .contact-us-section .contact-us-form {padding-right: 70px;}
@@ -922,8 +914,44 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 .form-validation textarea.error,
 .form-validation input.error {border-bottom:2px solid #f65353 !important;}
 
-
 /*---------------------- End Form validation ------------------*/
+
+
+#Mymodal {
+  padding-top: 65px;
+  z-index: 100000;
+}
+.modal-body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  color: darkgreen;
+  font-size: 17px;
+  padding: 1rem;
+}
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-size: 22px;
+  color: #3f4370;
+}
+.modal-body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  color: darkgreen;
+  font-size: 17px;
+  padding: 1rem;
+}
+
+.contact-us-section{
+      padding-left: 10px;
+      padding-right: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 
 .tooltip {
   font-family: Georgia;
@@ -984,6 +1012,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .footer_area .footer_inner .footer_logo .footer_social {
   padding-top: 30px;
+  display: none;
 }
 .footer_area .footer_inner .footer_logo .footer_social li {
   display: inline-block;
@@ -1166,9 +1195,17 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
 /*--------------------------------------------*/
 
-@media (min-width: 1920px) {
-  .banner_area {
-    padding: 365px 0 360px !important;
+@media only screen and (max-width: 1920PX) and (min-width: 1445PX) {
+
+.main_header_area .header_menu .navbar .navbar_supported ul {
+    padding-top: 10px;
+  }
+.main_header_area {
+    padding-top: 25px;
+}
+.banner_area {
+  padding: 380px 0 375px !important;
+    background-size: 63%;
 }
 .best_agency_area .agency_text {
   padding-top: 200px;
@@ -1178,9 +1215,18 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   height: 92%;
   left: -10px;
 }
+.best_agency_area .agency_img {
+  padding-top: 55px;
+}
 .header_tilete {
   top: 0px;
   margin-left: -15px;
+}
+.head-container{
+  min-width: 1440px;
+}
+.section-container{
+  min-width: 1240px;
 }
 }
 /*--------------------------------------------*/
@@ -1207,11 +1253,6 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
     max-width: 40%;
   }
 }
-@media (max-width: 1199px) {
-  .banner_area {
-    background-size: 80%;
-  }
-}
 
 @media (max-width: 1440px) {
   .max_header {
@@ -1229,7 +1270,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   padding-top: 30px;
 }
 .banner_area {
-  background-size: 64%;
+  background-size: 63%;
 }
 .main_header_area {
   padding-top: 22px;
