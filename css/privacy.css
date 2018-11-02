@@ -16,8 +16,7 @@
 .bg-img2{
     background: url(../images/privacy-policy-banner.png);
     background-size: cover;
-    box-shadow: 0px 5px 15px 0px rgba(109, 109, 109, 0.52);
-
+    box-shadow: 0px 5px 15px 0px rgba(109, 109, 109, 0.41);
 }
 
 .sec-spacer {
@@ -43,10 +42,10 @@
     margin-bottom: 30px;
     border-radius: 4px;
     background-color: #ffffff;
-    box-shadow: 0px 0px 30px 0px rgba(109, 109, 109, 0.13);
+    box-shadow: 0px 0px 30px 0px rgba(109, 109, 109, 0.17);
 }
 .ps p{
-    font-size: 18px;
+    font-size: 17px;
     color: rgba(10, 10, 10, 0.88);
 }
 .ps h2{
