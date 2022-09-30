@@ -1212,8 +1212,9 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   padding-left: 75px;
 }
 .best_agency_area .agency_img img {
-  height: 92%;
-  left: -10px;
+  height: 90%;
+  width: 100%;
+  top: -10px;
 }
 .best_agency_area .agency_img {
   padding-top: 55px;
