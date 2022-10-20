@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/src/img/favicon.ico">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./src/css/hire-now.css">
+    <title>Codinism - Hire Now</title>
+</head>
+
+<body oncontextmenu="return false">
+    <header id="home" class="py-0 py-md-3">
+        <nav id="navbar" class="navbar navbar-expand-xl">
+            <div class="container">
+                <a class="navbar-brand" href="https://www.codinism.com/">
+                    <img src="./src/img/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <svg height="30" width="30" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#2B59FF' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link navbar-link" href="https://www.codinism.com/#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar-link" href="https://www.codinism.com/#service">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar-link" href="https://www.codinism.com/#why-codinism">Why
+                                Codinism</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="hire-now-section my-5">
+        <div class="container">
+            <div class="text-center header">
+                <h1>Hire Your Dream Developer Now</h1>
+                <p>Get world-class team of the top of remote software developers to accelerate your development mission.
+                </p>
+            </div>
+            <div class="steps">
+                <form id="hire-form">
+                    <div class="step step-one" id="step-one">
+                        <div class="question d-flex justify-content-between align-items-center">
+                            <h2>How many roles are you looking to fill?</h2> <span>1/4</span>
+                        </div>
+                        <div class="options row mt-5">
+                            <div class="col-lg-3 col-md-6 my-3">
+                                <input onchange="handleChange()" class="radio-button d-none" type="radio"
+                                    name="how-many-roles" id="developer1">
+                                <label for="developer1" class="option">
+                                    <div class="option-card text-center">
+                                        <img src="./src/img/hire/code.png" alt="">
+                                        <p>1 Developer</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-6 my-3">
+                                <input onchange="handleChange()" class="d-none radio-button" type="radio"
+                                    name="how-many-roles" id="developer2">
+                                <label class="option" for="developer2">
+                                    <div class="option-card text-center">
+                                        <img src="./src/img/hire/teamwork.png" alt="">
+                                        <p>2-3 Developers</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-6 my-3">
+                                <input onchange="handleChange()" class="d-none radio-button" type="radio"
+                                    name="how-many-roles" id="team">
+                                <label class="option" for="team">
+                                    <div class="option-card text-center">
+                                        <img src="./src/img/hire/team.png" alt="">
+                                        <p>Full Team (4+ Roles)</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-6 my-3">
+
+                                <input onchange="handleChange()" class="d-none radio-button" type="radio"
+                                    name="how-many-roles" id="notSure">
+                                <label class="option" for="notSure">
+                                    <div class="option-card text-center">
+                                        <img src="./src/img/hire/request.png" alt="">
+                                        <p>Not Sure Yet</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step step-two" id="step-two">
+                        <div class="question d-flex justify-content-between align-items-center">
+                            <h2>Which Tech stacks do you need?</h2> <span>2/4</span>
+                        </div>
+                        <div class="options row mt-5">
+                            <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox"
+                                    name="javascript" id="javascript">
+                                <label for="javascript"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/javascript.png" alt="">
+                                    </div>
+                                    <div class="select"></div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox" name="python"
+                                    id="python">
+                                <label for="python"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/python.png" alt=""></div>
+                                    <div class="select"></div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox" name="android"
+                                    id="android">
+                                <label for="android"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/android.png" alt=""></div>
+                                    <div class="select"></div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox" name="php"
+                                    id="php">
+                                <label for="php"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/php.png" alt=""></div>
+                                    <div class="select"></div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox" name="node"
+                                    id="node">
+                                <label for="node"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/nodejs.png" alt=""></div>
+                                    <div class="select"></div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox" name="flutter"
+                                    id="flutter">
+                                <label for="flutter"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/flutter.png" alt=""></div>
+                                    <div class="select"></div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox" name="graphQL"
+                                    id="graphQL">
+                                <label for="graphQL"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/graphQL.png" alt=""></div>
+                                    <div class="select"></div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox"
+                                    name="react-native" id="react-native">
+                                <label for="react-native"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/react-native.png" alt="">
+                                    </div>
+                                    <div class="select"></div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox"
+                                    name="posgreSQL" id="posgreSQL">
+                                <label for="posgreSQL"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/posgreSQL.png" alt=""></div>
+                                    <div class="select"></div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox" name="devops"
+                                    id="devops">
+                                <label for="devops"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/devops.png" alt=""></div>
+                                    <div class="select"></div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox" name="swift"
+                                    id="swift">
+                                <label for="swift"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/swift.png" alt=""></div>
+                                    <div class="select"></div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox" name="mongoDB"
+                                    id="mongoDB">
+                                <label for="mongoDB"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/mongoDB.png" alt=""></div>
+                                    <div class="select"></div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox"
+                                    name="typescript" id="typescript">
+                                <label for="typescript"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/typescript.png" alt="">
+                                    </div>
+                                    <div class="select"></div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox" name="vue"
+                                    id="vue">
+                                <label for="vue"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/vuejs.png" alt=""></div>
+                                    <div class="select"></div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox" name="django"
+                                    id="django">
+                                <label for="django"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/django.png" alt=""></div>
+                                    <div class="select"></div>
+                                </label>
+                            </div>
+                            <!-- <div class="col-lg-3 col-md-4 col-6 my-3">
+                                <input onchange="handleChange()" class="checkbox d-none" type="checkbox" name="mongoDB" id="mongoDB">
+                                <label for="mongoDB"
+                                    class="p-2 p-sm-4 option-check d-flex justify-content-between align-items-center h-100">
+                                    <div class="w-75"><img class="img-fluid" src="./src/img/mongoDB.png" alt=""></div>
+                                    <div class="select"></div>
+                                </label>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="step step-three" id="step-three">
+                        <div class="question d-flex justify-content-between align-items-center">
+                            <h2>When do you need the developer to start?</h2> <span>3/4</span>
+                        </div>
+                        <div class="options row mt-5">
+                            <div class="col-lg-3 col-md-6 my-3">
+                                <input onchange="handleChange()" class="d-none radio-button" type="radio"
+                                    name="when-need-start" id="immediately">
+                                <label class="option" for="immediately">
+                                    <div class="option-card text-center">
+                                        <img src="./src/img/hire/alarm .png" alt="">
+                                        <p>Immediately</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-6 my-3">
+                                <input onchange="handleChange()" class="d-none radio-button" type="radio"
+                                    name="when-need-start" id="withinWeek">
+                                <label class="option" for="withinWeek">
+                                    <div class="option-card text-center">
+                                        <img src="./src/img/hire/calendar 1.png" alt="">
+                                        <p>Within 1-2 weeks</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-6 my-3">
+                                <input onchange="handleChange()" class="d-none radio-button" type="radio"
+                                    name="when-need-start" id="withinWeek2">
+                                <label class="option" for="withinWeek2">
+                                    <div class="option-card text-center">
+                                        <img src="./src/img/hire/calendar2.png" alt="">
+                                        <p>Within 2-4 weeks</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 col-md-6 my-3">
+                                <input onchange="handleChange()" class="d-none radio-button" type="radio"
+                                    name="when-need-start" id="notSureYet">
+                                <label class="option" for="notSureYet">
+                                    <div class="option-card text-center">
+                                        <img src="./src/img/hire/interview.png" alt="">
+                                        <p>Not Sure yet</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step step-four" id="step-four">
+                        <div class="question d-flex justify-content-between align-items-center">
+                            <h2>Basic Information</h2> <span>4/4</span>
+                        </div>
+                        <div class="options row mt-5 input-fields">
+                            <div class="col-md-6">
+                                <input type="text" required id="name" placeholder="Your Name" name="name"
+                                    class="text-field">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" required id="company" placeholder="Company Name" name="company"
+                                    class="text-field">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="number" required id="phone" placeholder="Phone Number" name="phone"
+                                    class="text-field">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" required id="email" placeholder="Email Address" name="email"
+                                    class="text-field">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- navigator buttons -->
+                    <div class="d-flex justify-content-between mt-5">
+                        <button id="previous-btn" type="button"
+                            class="btn previous-button d-flex align-items-center d-none"><svg width="10" height="18"
+                                viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.75 16.5L1.25 9L8.75 1.5" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg> <span class="ms-2">Previous</span></button>
+                        <span></span>
+                        <button disabled id="next-btn" type="button"
+                            class="btn primary-button fw-semibold">Continue</button>
+                        <button id="submit-btn" type="submit" class="btn primary-button fw-semibold d-none"><span
+                                id="hire-form-spinner" class="spinner-border spinner-border-sm d-none" role="status"
+                                aria-hidden="true"></span> Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="./lib/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./src/js/hire-now.js"></script>
+</body>
+
+</html>

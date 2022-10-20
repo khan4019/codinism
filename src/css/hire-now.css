@@ -1,0 +1,252 @@
+:root {
+    --dark01: #0C0C10;
+    --dark02: #3C3D40;
+    --dark03: #6D6E70;
+    --dark04: #9E9E9F;
+    --dark05: #a2a2a2;
+    --dark06: #e7e7e7;
+    --dark07: #F3F3F3;
+    --dark08: #Fafafa;
+    --blue01: #2B59FF;
+    --purple01: #8000FF;
+    --green01: #14B082;
+    --red01: #F23936;
+    --yellow01: #FABB18;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* 
+    Common
+*/
+.primary-button {
+    font-size: 20px;
+    color: var(--white);
+    background-color: var(--blue01);
+    padding: 10px 30px;
+}
+
+.primary-button:hover {
+    font-size: 20px;
+    color: var(--blue01);
+    background-color: transparent;
+    border: 1px solid var(--blue01);
+    padding: 10px 30px;
+}
+
+.primary-button:disabled {
+    color: var(--white);
+    background-color: var(--dark04);
+    pointer-events: all;
+    cursor: not-allowed;
+    border: 0;
+    opacity: .7;
+}
+
+.primary-button:disabled:active {
+    color: var(--white);
+    background-color: var(--dark04);
+}
+
+.primary-button-outline {
+    font-size: 20px;
+    color: var(--blue01);
+    background-color: transparent;
+    border: 1px solid var(--blue01);
+    padding: 10px 30px;
+}
+
+.primary-button-outline:hover {
+    font-size: 20px;
+    color: var(--white);
+    background-color: var(--blue01);
+    padding: 10px 30px;
+}
+
+
+.previous-button {
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+    color: var(--dark04);
+}
+
+.previous-button svg {
+    stroke: var(--dark04);
+}
+
+.previous-button:hover {
+    color: var(--blue01);
+}
+
+.previous-button:hover svg {
+    stroke: var(--blue01);
+}
+
+/* 
+    Header Part
+*/
+
+/* Header Part */
+
+#navbar {
+    background-color: var(--white);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 999;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+header .navbar-nav .navbar-link {
+    font-size: 18px;
+    color: var(--dark01);
+    font-weight: 500;
+    padding: 12px;
+    margin: 0 15px;
+}
+
+.hire-now-section .header h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: var(--dark01);
+    margin-block: 30px;
+}
+
+.hire-now-section .header p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--dark03);
+    max-width: 740px;
+    margin-inline: auto;
+}
+
+.steps {
+    margin-top: 100px;
+    background-color: var(--dark08);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.steps .question h2 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    color: var(--dark02);
+    margin: 0 20px 0 0;
+}
+
+.steps .options .option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    min-height: 200px;
+    cursor: pointer;
+}
+
+
+.steps .options .option:hover {
+    border: 1.5px solid var(--blue01);
+}
+
+.steps .options .radio-button:checked~label.option {
+    background: rgba(43, 89, 255, 0.1);
+    border: 1.5px solid var(--blue01);
+    box-shadow: 0px 7px 35px rgba(43, 89, 255, 0.1);
+}
+
+.steps .options .option p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--dark03);
+    margin-top: 20px;
+}
+
+.steps .options .option-check {
+    box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    min-height: 100px;
+    border: 1.5px solid transparent;
+    cursor: pointer;
+}
+
+.steps .options .option-check:hover {
+    border: 1.5px solid var(--blue01);
+}
+
+.step-two .options .option-check .select {
+    width: 24px;
+    height: 24px;
+    background-image: url("./../img/plus-circle.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.step-two .options .checkbox:checked~.option-check .select {
+    background-image: url("./../img/minus-circle.svg");
+}
+
+.step-two .options .checkbox:checked~.option-check {
+    background: rgba(43, 89, 255, 0.1);
+    border: 1.5px solid var(--blue01);
+    box-shadow: 0px 7px 35px rgba(43, 89, 255, 0.1);
+}
+
+.step-four .input-fields .text-field {
+    background-color: var(--white);
+    border-radius: 10px;
+    border: 1px solid var(--dark07);
+    outline: 0;
+    padding: 15px 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.step-four .input-fields .text-field::placeholder {
+    color: var(--dark04);
+}
+
+
+@media (max-width:576px) {
+    .hire-now-section .header h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .steps {
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .steps .question h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .steps .options .option-check {
+        min-height: 70px;
+    }
+}
+
+@media (max-width:350px) {
+    .step-two .options .option-check .select {
+        width: 18px;
+        height: 18px;
+    }
+}

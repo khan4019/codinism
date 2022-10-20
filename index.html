@@ -1,272 +1,519 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/fav.png" type="image/fav-icon" />
-    <title>Codinism Inc | Web & IT Solution Company</title> 
-    <!-- Theme style CSS -->       
-    <link href="css/style.css" rel="stylesheet"> 
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/src/img/favicon.ico">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="./lib/aos/aos.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Codinism</title>
 </head>
 
-<body>
-   
-    <!-- Header Area -->
-    <header class="main_header_area"> 
-            <div class="container head-container">
-            <div class="header_menu"> 
-                <nav class="navbar navbar-expand-lg"> 
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a> 
-                    <!-- Small Device Menu-->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar_supported"  aria-expanded="false" aria-label="Toggle navigation"> 
-                        <i class="fa fa-bars" aria-hidden="true"></i>
-                    </button>
-
-                    <div class="collapse navbar-collapse navbar_supported">
-                        <ul class="navbar-nav"> 
-                            <li><a class="nav-link" href="index.html">Home</a></li>  
-                            <li><a class="nav-link" href="#service">Services</a></li>  
-                            <li><a class="nav-link" href="#about_us">About Us</a></li>  
-                            <li><a class="nav-link" href="#products">Products</a></li>  
-                            <li><a class="nav-link" href="#contact">Contact</a></li>     
-                        </ul>   
-                    </div>
-
-                </nav>  
-           </div>
-        </div>
-    </header>
-    <!-- Header Area -->  
-
-    <div id="parallax"><!-- Parallax Div --> 
-    <!-- Banner Area -->   
-    <section class="banner_area wow fadeInDown" data-wow-delay="0.3s">
-            <img src="images/parallax-layer/banner-bg.png" alt="" class="layer banner_bg" data-depth="0.35"> 
-            <img src="images/parallax-layer/banner-layer-1.png" alt="" class="layer layer_1" data-depth="0.60"> 
-            <img src="images/parallax-layer/banner-layer-2.png" alt="" class="layer layer_2"  data-depth="0.55"> 
-            
-      
-        <div class="container head-container">
-                <div class="col-lg-7 header_tilete">
-            <h2 class="wow fadeInLeft" data-wow-delay="0.3s">Build a business </br> while building an app </h2>
-            <p class="wow fadeInUp" data-wow-delay="0.7s">Transform idea to business with innovative Application.</p>
-            <!-- <a href="#" class="theme_btn wow fadeInUp" data-wow-delay="0.5s">Get Started</a>-->
-             </div>
-        </div>
-    </section>
-    <!-- End Banner Area -->    
-
-    <!-- Our Services Area -->
-    <section class="services_area" id="service">
-            <img src="images/parallax-layer/services_area-bg.png" alt="" class="layer layer_1" data-depth="0.40"> 
-        <div class="container section-container">
-            <h2>What We Do</h2>
-            <div class="services_row row">
-                <!-- Services items -->
-                <div class="col-lg-6 wow fadeInUp">
-                    <div class="services_items media">
-                        <div class="services_icons"><i class="flaticon-smartphone"></i></div> 
-                        <div class="media-body">
-                            <a href="#">Mobile App</a>
-                            <p>We transform your idea into a product. We build design, MVP, cross-platform/native app, software platform, admin portal, and everything needed around a business.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Services items -->
-                <div class="col-lg-6 wow fadeInUp">
-                    <div class="services_items media">
-                        <div class="services_icons si_2"><i class="flaticon-budget"></i></div> 
-                        <div class="media-body">
-                            <a href="#">Business Development</a>
-                            <p>We poineered in App Store search optimization, social media integration, organic traffic flow towards your business. All these drive user satisfaction and higher engagement.</p>
-                            
-                        </div>
-                    </div>
-                </div>  
-                <!-- Services items -->
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="services_items media">
-                        <div class="services_icons si_3"><i class="flaticon-cms"></i></div> 
-                        <div class="media-body">
-                            <a href="#">Multi-Platform Presence</a>
-                            <p>We master in scaleable ecosystem development which includes Android, iOS app, web presence, tablet support, etc. This is how a brand becomes part of everyday life.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Services items -->
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="services_items media">
-                        <div class="services_icons si_4"><i class="flaticon-earnings"></i></div> 
-                        <div class="media-body">
-                            <a href="#">Time & Cost Effective</a>
-                            <p>Accelerate your success with the Elastic Stack on a budget, on a schedule with higher quality — at any stage in your journey. We come to you to build a relationship.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-     <!--   <img src="images/parallax-layer/services_area-bg2.png" alt="" class="layer layer_1" data-depth="2.20"> -->    
-    </section>
-    <!-- End Our Services Area -->    
-
-<!-- About Section -->   
-<section class="best_agency_area" id="about_us">
-    <div class="container section-container">
-        <div class="row">
-           <div class="col-lg-6 agency_img wow bounceInLeft" data-wow-delay="0.50s"><img src="images/about_us.png" alt=""></div>
-            <div class="col-lg-6 agency_text wow fadeInUp" data-wow-delay="0.20s">
-                <h2>About Us</h2>
-                <p>Codinism is a Austin, TX based company specializing in business development for startups. We keep you engaged in the technology and architectural decisions and then do the heavy lifting.</p>
-                <br>
-                <p>To start a conversation: <strong>info@codinism.com</strong></p>
-              <!--  <a href="#" class="theme_btn">View More</a> --> 
-            </div>
-           
-        </div>
-    </div>
-</section>
-<!-- End About Section -->  
-
-    <!-- Feature Work Section -->  
-    <section class="feature_work_area" id="products"> 
-
-     <img src="images/parallax-layer/feature-work-bg.png" alt="" class="layer layer_1" data-depth="0.45"> 
-        <div class="container section-container">
-            <h2 class="tittle">Our Product</h2>
-            <div class="row">
-                <div class="col-lg-6 feature_content wow bounceInLeft" data-wow-delay="0.45s">
-                    <h2>Programming Hero</h2>
-                    <p>Programming Hero is a ground-breaking app to teach programming with fun and exciting stories.</p>
-                   <!-- <a href="#" class="theme_btn">Play Store</a> -->
-                   <div class="feature_play_logo"> 
-                       <a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp" target="_blank">
-                       <img src="images/programming-hero-google_play.png" alt="Get It On Google PlayStore" class="theme_btn_googleplay" data-depth="0.20"></a> </div>
-                   
-                </div>
-                <div class="col-lg-6 feature_img wow bounceInRight"><img src="images/programming-hero.png" alt="App Preview image"> </div>
-            </div>
-        </div>
-
-    </section>
-    <!-- End Feature Work Section -->  
-
-</div>
-<!-- End Parallax -->  
-    
-  <!-- Start Footer Area -->  
-  <footer class="footer_area" id="contact">
-        <div class="container section-container">
-            <div class="footer_inner row"> 
-                <div class="col-lg-6 footer_logo wow fadeInUp" data-wow-delay="0.3s">
-                    <a href="index.html"><img src="images/logo.png" alt=""></a> 
-                    <p>Don’t Hesitate to contact with us </br> for any kind of information </p>
-                    <h6><i class="fa fa-location-arrow"></i>USA office: Austin, TX-78738, USA</h6> 
-                    <h6><i class="fa fa-building-o"></i>Bangladesh office: Level-4, 34, Awal Centre, Banani, Dhaka</h6> 
-
-                    <ul class="footer_social"> 
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+<body oncontextmenu="return false">
+    <header id="home" class="py-0 py-md-3">
+        <nav id="navbar" class="navbar navbar-expand-xl">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./src/img/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <svg height="30" width="30" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#2B59FF' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link navbar-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar-link" href="#hire-developers">Hire Developers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar-link" href="#why-codinism">Why Codinism</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar-link" href="#contact">Contact</a>
+                        </li>
                     </ul>
+
                 </div>
-    
-    <!-- Start Contact Us -->
-       <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-        <div class="contact-us-section">
-          <div class="container">
-            <div class="row">
-                <form action="https://formspree.io/codinism@gmail.com" method="post" id="form" class="contact-us-form form-validation" onSubmit="return check_Email(this)">
-                    <input class="hover-tooltip" name="email" type="email" placeholder="Email Address*" data-toggle="tooltip" data-placement="left" title="*Enter Your Email" required="true">
-                    <input type="text" placeholder="Subject*" name="sub" required="true">
-                    <textarea placeholder="Your Message*" name="message" required="true"></textarea>
-                    <div class="theme-button">
-                      <span></span>
-                      <input id="submit" type="submit" value="Submit">
-                    </div>
-                  </form>
-
-                <!-- <form action="inc/sendemail.php" method="post" id="form" class="contact-us-form form-validation" onSubmit="return check_Email(this)">
-                    <input class="hover-tooltip" name="email" type="email" placeholder="Email Address*" data-toggle="tooltip" data-placement="left" title="*Enter Your Email" required="true">
-                    <input type="text" placeholder="Subject*" name="sub" required="true">
-                    <textarea placeholder="Your Message*" name="message" required="true"></textarea>
-                    <div class="theme-button">
-                      <span></span>
-                      <input id="submit" type="submit" value="Submit">
-                    </div>
-                  </form> -->
-
-        <!-- .modal -->
-
-        <div class="modal fade" id="Mymodal">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Notification</h4>  
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>                                                            
-                    </div> 
-                    <div class="modal-body">
-                        Congrats! Your email has been send send.
-                    </div>   
-                    <div class="modal-footer">
-                        <button id="exit" type="button" class="btn btn-default" data-dismiss="modal">Close</button>                               
-                    </div>
-                </div>                                                                       
-            </div>                                          
-        </div>
-    
-                <!--Contact Form Validation Markup -->
-                <!-- Contact alert -->
-                <div class="alert-wrapper" id="alert-success">
-                  <div id="success">
-                    <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
-                    <div class="wrapper">
-                              <p>Your message was sent successfully.</p>
-                           </div>
-                      </div>
-                  </div> 
-                  <div class="alert-wrapper" id="alert-error">
-                      <div id="error">
-                          <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
-                          <div class="wrapper">
-                              <p>Sorry!Something Went Wrong.</p>
-                          </div>
-                      </div>
-                  </div> 
-              </div> 
-    
-            </div> 
-          </div> 
-        </div> 
-         <!-- END contact-us-section -->
-
             </div>
-        </div> 
-         
-        <div class="copy_right"> 
-            <p>Copyrights © 2022 <a href="index.html">Codinism</a> Inc</p> 
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 my-5">
+                        <div class="banner-left d-flex align-items-center h-100">
+                            <div>
+                                <h1 data-aos="fade-up">
+                                    Hire Top Developers <span class="highlight">Remotely</span>
+                                </h1>
+                                <p data-aos="fade-up" data-aos-delay="250">Recruit Top Engineers who Deliver. Our devs
+                                    will match your
+                                    timezone, produce higher
+                                    quality
+                                    software, and save your time and budget.</p>
+                                <a data-aos="fade-up" data-aos-delay="500" href="/hire-now.html"
+                                    class="btn primary-button mt-2">Hire Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 my-5">
+                        <div class="banner-right">
+                            <div data-aos="zoom-in" data-aos-delay="500" class="gradient-bg"></div>
+                            <img data-aos="fade-down" class="img-fluid" src="./src/img/banner.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="service-card-item purple">
+                            <img data-aos="fade-up" src="./src/img/research.svg" alt="">
+                            <h2 data-aos="fade-up" data-aos-delay="100">Hire highly-skilled Developers Instantly</h2>
+                            <p data-aos="fade-up" data-aos-delay="200">We will provide the best tech talent that
+                                perfectly fits your needs. Onboard within a
+                                week and instantly increase the velocity, productivity, and quality. Helping you build a
+                                robust software that scale.</p>
+                            <a data-aos="fade-up" data-aos-delay="300" href="/hire-now.html">Hire Developer Now
+                                <svg width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.5 0.75L14.75 6M14.75 6L9.5 11.25M14.75 6L1.25 6" stroke="#8000FF"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-card-item green">
+                            <img data-aos="fade-up" data-aos-delay="100" src="./src/img/team.svg" alt="">
+                            <h2 data-aos="fade-up" data-aos-delay="200">Build a your team Quickly</h2>
+                            <p data-aos="fade-up" data-aos-delay="300">Don’t waste time and opportunities while building
+                                a tech team. We will form the right
+                                team for your needs, with our top developers, QA, DevOps, UI/UX experts, and product
+                                managers. From day 1, you can focus on the business, and we will take care of the tech.
+                            </p>
+                            <a data-aos="fade-up" data-aos-delay="400" href="/hire-now.html">Hire Developer Now
+                                <svg width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.5 0.75L14.75 6M14.75 6L9.5 11.25M14.75 6L1.25 6" stroke="#14B082"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-card-item blue">
+                            <img data-aos="fade-up" data-aos-delay="200" src="./src/img/lamp.svg" alt="">
+                            <h2 data-aos="fade-up" data-aos-delay="300">Startup: Idea to Launch</h2>
+                            <p data-aos="fade-up" data-aos-delay="400">Have an idea? We’ll build it for you. Convert
+                                your ideas into ground-breaking business
+                                solutions. Let’s start with an MVP, then iterate based on customer feedback. A highly
+                                professional tech team will take care of the design, MVP, development, QA, launch, etc.
+                            </p>
+                            <a data-aos="fade-up" data-aos-delay="500" href="/hire-now.html">Hire Developer Now
+                                <svg width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.5 0.75L14.75 6M14.75 6L9.5 11.25M14.75 6L1.25 6" stroke="#2B59FF"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hire-developers py-5" id="hire-developers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-12 order-2 order-lg-1 my-5">
+                        <div data-aos="zoom-in" data-aos-delay="300" class="hire-developers-left text-center">
+                            <img class="img-fluid" src="./src/img/efforless-hire.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xs-12 order-1 order-lg-2 my-5">
+                        <div class="hire-developers-right px-2">
+                            <h2 data-aos="fade-up" class="title">Hire Effortlessly</h2>
+                            <p data-aos="fade-down" class="subtitle">With Codinism remote developers, you can build faster than ever
+                                before</p>
+                            <div class="list">
+                                <div class="list-item d-flex align-items-start mt-4">
+                                    <div data-aos="fade-right" class="icon red">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11 1H1V21H21V11" stroke="#F23936" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M5.5 9.5L9 13L19.5 2.5" stroke="#F23936" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="list-item-text">
+                                        <h5 data-aos="fade-up">Tell us what you need</h5>
+                                        <p data-aos="fade-up" data-aos-delay="250">A strong, up-to-date, employee
+                                            benefits insurance program is vital for
+                                            attracting good employees.</p>
+                                    </div>
+                                </div>
+                                <div class="list-item d-flex align-items-start mt-4">
+                                    <div data-aos="fade-right" class="icon green">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11 1H1V21H21V11" stroke="#45C646" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M5.5 9.5L9 13L19.5 2.5" stroke="#45C646" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="list-item-text">
+                                        <h5 data-aos="fade-up">Within a week, select the developer(s)</h5>
+                                        <p data-aos="fade-up" data-aos-delay="250"> It takes diligence, creativity and
+                                            attention to detail to ensure you are
+                                            getting the best each and every year.</p>
+                                    </div>
+                                </div>
+                                <div class="list-item d-flex align-items-start mt-4">
+                                    <div data-aos="fade-right" class="icon yellow">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11 1H1V21H21V11" stroke="#FABB18" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M5.5 9.5L9 13L19.5 2.5" stroke="#FABB18" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="list-item-text">
+                                        <h5 data-aos="fade-up">Instantly Start building awesome software</h5>
+                                        <p data-aos="fade-up" data-aos-delay="250"> It takes diligence, creativity and
+                                            attention to detail to ensure you are
+                                            getting the best each and every year.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" class="hire-button">
+                                <a href="/hire-now.html" class="btn primary-button mt-4">Hire Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="why-codinism py-5" id="why-codinism">
+            <div class="container">
+                <div>
+                    <h1 data-aos="fade-up" class="title">Why Codinism?
+                        <svg class="d-none d-md-inline" width="268" height="198" viewBox="0 0 268 198" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M267.477 3.2525C267.385 1.87489 266.193 0.833126 264.815 0.925657C263.438 1.01818 262.396 2.20996 262.488 3.58757L267.477 3.2525ZM230.506 82.0459L229.225 79.8994L230.506 82.0459ZM147.747 71.4976L150.059 70.5477L147.747 71.4976ZM158.162 38.8587L159.252 41.1087L158.162 38.8587ZM186.841 48.1023L184.975 49.7666L186.841 48.1023ZM153.8 131.707L154.981 133.91L153.8 131.707ZM76.6066 117.586L74.3437 118.649L76.6066 117.586ZM83.6781 92.825L85.1525 94.8439L83.6781 92.825ZM70.5734 188.508L69.829 186.122L70.5734 188.508ZM2.90994 176.599L2.52887 174.128C1.62744 174.267 0.873251 174.886 0.560997 175.743C0.248759 176.6 0.428003 177.559 1.02872 178.245L2.90994 176.599ZM25.6944 175.614C27.059 175.404 27.9946 174.127 27.7841 172.762C27.5737 171.398 26.2968 170.462 24.9323 170.673L25.6944 175.614ZM16.7059 196.158C17.6153 197.196 19.1947 197.302 20.2337 196.392C21.2726 195.483 21.3777 193.903 20.4684 192.865L16.7059 196.158ZM264.983 3.42003C262.488 3.58757 262.488 3.58691 262.488 3.58648C262.488 3.58662 262.488 3.58638 262.488 3.58665C262.488 3.58719 262.488 3.58857 262.488 3.59079C262.489 3.59522 262.489 3.60301 262.49 3.61409C262.491 3.63627 262.493 3.67168 262.496 3.71995C262.502 3.81653 262.509 3.96461 262.518 4.1615C262.535 4.55533 262.556 5.1442 262.569 5.90656C262.596 7.43167 262.594 9.64876 262.473 12.3856C262.232 17.8647 261.52 25.3974 259.641 33.6162C255.87 50.1127 247.496 68.9885 229.225 79.8994L231.788 84.1923C251.741 72.2776 260.604 51.8404 264.516 34.7304C266.478 26.146 267.218 18.302 267.469 12.6054C267.594 9.75426 267.597 7.43362 267.569 5.81799C267.554 5.00999 267.532 4.37775 267.513 3.94304C267.504 3.72567 267.495 3.55763 267.488 3.44165C267.485 3.38366 267.482 3.33867 267.481 3.30703C267.48 3.29122 267.479 3.27873 267.478 3.26963C267.478 3.26508 267.478 3.26137 267.477 3.25851C267.477 3.25709 267.477 3.25558 267.477 3.25487C267.477 3.25358 267.477 3.2525 264.983 3.42003ZM229.225 79.8994C214.952 88.4224 197.476 92.179 182.35 90.6579C167.185 89.133 154.931 82.4059 150.059 70.5477L145.434 72.4475C151.275 86.6663 165.676 94.0064 181.85 95.6329C198.063 97.2633 216.611 93.2555 231.788 84.1923L229.225 79.8994ZM150.059 70.5477C148.633 67.075 147.893 61.0578 149.131 55.1487C150.358 49.2967 153.432 43.9269 159.252 41.1087L157.072 36.6086C149.442 40.3034 145.674 47.2735 144.238 54.1229C142.814 60.9152 143.591 67.961 145.434 72.4475L150.059 70.5477ZM159.252 41.1087C164.756 38.4433 169.706 39.051 174.036 41.0694C178.466 43.1339 182.217 46.6745 184.975 49.7666L188.706 46.438C185.779 43.1572 181.489 39.0264 176.149 36.5375C170.71 34.0025 164.163 33.1748 157.072 36.6086L159.252 41.1087ZM184.975 49.7666C195.962 62.0818 195.76 77.6127 188.737 92.4995C181.69 107.438 167.904 121.315 152.619 129.503L154.981 133.91C171.111 125.269 185.708 110.64 193.259 94.6327C200.835 78.5731 201.445 60.7167 188.706 46.438L184.975 49.7666ZM152.619 129.503C139.51 136.526 123.991 139.792 110.283 137.997C96.6316 136.21 84.9412 129.453 78.8695 116.524L74.3437 118.649C81.2985 133.459 94.6978 140.999 109.633 142.955C124.511 144.903 141.076 141.36 154.981 133.91L152.619 129.503ZM78.8695 116.524C76.9665 112.471 76.5569 108.567 77.5261 105C78.4973 101.426 80.9234 97.9324 85.1525 94.8439L82.2036 90.806C77.2504 94.4235 74.027 98.8094 72.7011 103.689C71.3733 108.575 72.0192 113.699 74.3437 118.649L78.8695 116.524ZM85.1525 94.8439C89.015 92.0231 92.8422 91.5005 96.6264 92.4341C100.532 93.3976 104.539 95.9581 108.428 99.5903L111.841 95.9361C107.631 92.0046 102.885 88.8282 97.8241 87.5797C92.642 86.3012 87.2902 87.0913 82.2036 90.806L85.1525 94.8439ZM108.428 99.5903C121.441 111.744 120.341 130.41 111.236 148.087C102.154 165.721 85.607 181.2 69.829 186.122L71.3179 190.895C88.6794 185.479 106.15 168.882 115.681 150.376C125.191 131.913 127.301 110.375 111.841 95.9361L108.428 99.5903ZM69.829 186.122C57.5838 189.941 41.2969 187.171 27.6887 183.196C20.9578 181.23 15.0204 179.012 10.765 177.284C8.639 176.421 6.93696 175.682 5.77047 175.161C5.18731 174.9 4.73829 174.694 4.43734 174.554C4.28687 174.484 4.17345 174.431 4.09881 174.396C4.0615 174.378 4.03388 174.365 4.01618 174.357C4.00733 174.352 4.00096 174.349 3.9971 174.348C3.99518 174.347 3.99387 174.346 3.9932 174.346C3.99286 174.346 3.99283 174.346 3.99265 174.345C3.99279 174.345 3.99306 174.346 2.90994 176.599C1.82682 178.852 1.82742 178.852 1.82819 178.853C1.82865 178.853 1.82956 178.853 1.83049 178.854C1.83235 178.855 1.83485 178.856 1.83798 178.857C1.84423 178.86 1.853 178.865 1.86427 178.87C1.88682 178.881 1.91934 178.896 1.96163 178.916C2.0462 178.956 2.16986 179.014 2.3308 179.089C2.65271 179.239 3.12397 179.455 3.73057 179.726C4.94355 180.268 6.69885 181.03 8.88418 181.917C13.2516 183.69 19.353 185.97 26.2867 187.996C40.0075 192.004 57.5524 195.189 71.3179 190.895L69.829 186.122ZM3.29102 179.07L25.6944 175.614L24.9323 170.673L2.52887 174.128L3.29102 179.07ZM1.02872 178.245L16.7059 196.158L20.4684 192.865L4.79117 174.952L1.02872 178.245Z"
+                                fill="#2B59FF" />
+                        </svg>
+                    </h1>
+                    <p data-aos="fade-right" class="subtitle">We provide exceptionally talented developers
+                        ranging from juniors to seniors, matching your requirements at no risk on your side. </p>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-3">
+                            <div data-aos="flip-up" class="feature-card-item">
+                                <img src="./src/img/research.png" alt="">
+                                <p>Instant Hiring of Senior Developers</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-3">
+                            <div data-aos="flip-left" class="feature-card-item">
+                                <img src="./src/img/expert.png" alt="">
+                                <p>Role-Specific Expertise</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-3">
+                            <div data-aos="flip-down" class="feature-card-item">
+                                <img src="./src/img/payment.png" alt="">
+                                <p>No Recruiting Fee</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-3">
+                            <div data-aos="flip-right" class="feature-card-item">
+                                <img src="./src/img/guarantee.png" alt="">
+                                <p>Quality Guaranteed</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-3">
+                            <div data-aos="flip-up" class="feature-card-item">
+                                <img src="./src/img/clock.png" alt="">
+                                <p>Significant overlap with any timezone</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-3">
+                            <div data-aos="flip-left" class="feature-card-item">
+                                <img src="./src/img/united.png" alt="">
+                                <p>Great Cultural Fit</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-3">
+                            <div data-aos="flip-down" class="feature-card-item">
+                                <img src="./src/img/salary.png" alt="">
+                                <p>No payroll or other liabilities for you</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tech-stack py-5">
+            <div class="container">
+                <h1 data-aos="fade-up" class="title text-center">Tech Stacks We Expertise</h1>
+                <p data-aos="fade-down" class="subtitle mx-auto text-center">Recruit Top Engineers who Deliver. Our devs
+                    will match your
+                    timezone, produce higher
+                    quality software, and save your time and budget.</p>
+                <div class="skills d-flex flex-wrap justify-content-center">
+                    <div data-aos="fade-up-left" data-aos-delay="150" class="skill-item">
+                        <img src="./src/img/reactjs.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-right" data-aos-delay="200" class="skill-item">
+                        <img src="./src/img/nodejs.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-left" data-aos-delay="250" class="skill-item">
+                        <img src="./src/img/mongoDB.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-right" data-aos-delay="300" class="skill-item">
+                        <img src="./src/img/aws.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-left" data-aos-delay="350" class="skill-item">
+                        <img src="./src/img/javascript.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-right" data-aos-delay="400" class="skill-item">
+                        <img src="./src/img/typescript.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-left" data-aos-delay="450" class="skill-item">
+                        <img src="./src/img/vuejs.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-right" data-aos-delay="500" class="skill-item">
+                        <img src="./src/img/python.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-left" data-aos-delay="550" class="skill-item">
+                        <img src="./src/img/graphQL.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-right" data-aos-delay="600" class="skill-item">
+                        <img src="./src/img/react-native.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-left" data-aos-delay="650" class="skill-item">
+                        <img src="./src/img/next.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-right" data-aos-delay="700" class="skill-item">
+                        <img src="./src/img/django.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-left" data-aos-delay="750" class="skill-item">
+                        <img src="./src/img/flutter.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-right" data-aos-delay="800" class="skill-item">
+                        <img src="./src/img/android.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-left" data-aos-delay="850" class="skill-item">
+                        <img src="./src/img/swift.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-right" data-aos-delay="900" class="skill-item">
+                        <img src="./src/img/posgreSQL.png" alt="">
+                    </div>
+                    <div data-aos="fade-up-left" data-aos-delay="950" class="skill-item">
+                        <img src="./src/img/devops.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container my-5">
+            <div data-aos="zoom-in-up" class="ready-to-start">
+                <h2>Ready to Start?</h2>
+                <p>Recruit Top Engineers who Deliver. Our devs will match your timezone, produce higher quality
+                    software, and save your time and budget.</p>
+                <div class="text-center">
+                    <a href="/hire-now.html" class="btn white-button m-2" style="color: var(--blue01);">Hire Now</a>
+                    <a href="#contact" class="btn white-button m-2" style="color: var(--dark02);">Contact Us</a>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about-us my-5 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 my-5 order-2 order-md-1">
+                        <div data-aos="fade-right" class="about-left">
+                            <img class="img-fluid" src="./src/img/about.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 my-5 order-1 order-md-2">
+                        <div class="about-right">
+                            <h2 data-aos="fade-up">About Us</h2>
+                            <p data-aos="fade-down" data-aos-delay="300" class="subtitle">Codinism is an Austin-based
+                                company specializing
+                                in providing high
+                                quality experienced developers</p>
+                            <div data-aos="fade-down" class="list">
+                                <p>Secure for the organization</p>
+                                <p>Increase your business</p>
+                                <p>Control to access your data</p>
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="300" class="divider"></div>
+                            <div class="info" data-aos="fade-up">
+                                <p>
+                                    To start a conversation
+                                </p>
+                                <h4>info@codinism.com</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-us my-5 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contact-left">
+                            <h2>Contact Us
+                                <svg class="d-none d-lg-inline" width="164" height="121" viewBox="0 0 164 121"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M163.051 3.20129C162.959 1.82368 161.767 0.781916 160.389 0.874444C159.012 0.966968 157.97 2.15875 158.062 3.53636L163.051 3.20129ZM139.875 50.5346L138.593 48.3882L139.875 50.5346ZM90.2298 44.207L92.5423 43.257L90.2298 44.207ZM96.4775 24.6276L97.5671 26.8777L96.4775 24.6276ZM113.681 30.1727L111.816 31.837L113.681 30.1727ZM93.8609 80.325L95.0414 82.5287L93.8609 80.325ZM47.5544 71.8545L45.2915 72.9172L47.5544 71.8545ZM51.7964 57.0007L53.2708 59.0197L51.7964 57.0007ZM43.9352 114.399L43.1908 112.012L43.9352 114.399ZM3.34546 107.255L2.96439 104.784C2.06295 104.923 1.30877 105.542 0.996524 106.399C0.684278 107.256 0.863523 108.215 1.46423 108.901L3.34546 107.255ZM17.1658 107.653C18.5304 107.442 19.466 106.165 19.2555 104.801C19.0451 103.436 17.7682 102.501 16.4037 102.711L17.1658 107.653ZM10.8686 119.646C11.778 120.685 13.3574 120.79 14.3964 119.881C15.4353 118.972 15.5404 117.392 14.6311 116.353L10.8686 119.646ZM160.557 3.36882C158.062 3.53636 158.062 3.53562 158.062 3.53501C158.062 3.53497 158.062 3.53449 158.062 3.53442C158.062 3.53428 158.062 3.53464 158.062 3.5355C158.062 3.53723 158.063 3.54096 158.063 3.54666C158.064 3.55808 158.065 3.5774 158.066 3.60442C158.069 3.65846 158.074 3.7433 158.079 3.85732C158.089 4.08538 158.101 4.42996 158.109 4.87815C158.125 5.77492 158.123 7.08418 158.052 8.70306C157.909 11.9464 157.488 16.4028 156.378 21.2599C154.143 31.033 149.218 42.0438 138.593 48.3882L141.157 52.681C153.462 45.3329 158.878 32.7607 161.252 22.3741C162.446 17.1514 162.895 12.3837 163.047 8.92287C163.124 7.18968 163.126 5.77687 163.108 4.78958C163.099 4.29575 163.086 3.9078 163.074 3.63885C163.068 3.50436 163.063 3.39957 163.059 3.32611C163.057 3.28938 163.055 3.26047 163.054 3.23961C163.053 3.22917 163.052 3.22074 163.052 3.21435C163.052 3.21115 163.052 3.20846 163.051 3.20628C163.051 3.20519 163.051 3.20394 163.051 3.2034C163.051 3.20228 163.051 3.20129 160.557 3.36882ZM138.593 48.3882C130.213 53.3929 119.944 55.5961 111.087 54.7055C102.192 53.811 95.2704 49.8982 92.5423 43.257L87.9173 45.1569C91.6151 54.1587 100.683 58.6845 110.587 59.6804C120.531 60.6803 131.871 58.2259 141.157 52.681L138.593 48.3882ZM92.5423 43.257C91.7698 41.3767 91.3334 37.9729 92.0394 34.6049C92.7334 31.2939 94.4381 28.3929 97.5671 26.8777L95.388 22.3776C90.4487 24.7694 88.0488 29.2707 87.1457 33.5791C86.2546 37.8303 86.7284 42.2627 87.9173 45.1569L92.5423 43.257ZM97.5671 26.8777C100.552 25.4325 103.202 25.753 105.578 26.8605C108.052 28.014 110.195 30.0199 111.816 31.837L115.547 28.5084C113.757 26.5025 111.075 23.9065 107.69 22.3286C104.206 20.7045 99.9591 20.164 95.388 22.3776L97.5671 26.8777ZM111.816 31.837C118.056 38.8318 118.016 47.6832 113.914 56.3787C109.788 65.1265 101.68 73.2998 92.6803 78.1213L95.0414 82.5287C104.887 77.2544 113.806 68.3282 118.436 58.5119C123.091 48.6436 123.539 37.4667 115.547 28.5084L111.816 31.837ZM92.6803 78.1213C84.9756 82.2489 75.8753 84.1528 67.8857 83.1066C59.9538 82.068 53.2828 78.1718 49.8173 70.7919L45.2915 72.9172C49.6402 82.1777 58.02 86.8574 67.2365 88.0643C76.3954 89.2636 86.5412 87.0825 95.0414 82.5287L92.6803 78.1213ZM49.8173 70.7919C48.76 68.5404 48.5616 66.4423 49.0713 64.5666C49.5829 62.6838 50.8788 60.7666 53.2708 59.0197L50.3219 54.9818C47.2057 57.2576 45.1126 60.0672 44.2462 63.2555C43.378 66.4508 43.8127 69.7682 45.2915 72.9172L49.8173 70.7919ZM53.2708 59.0197C55.3429 57.5064 57.3337 57.2464 59.3242 57.7375C61.436 58.2585 63.6918 59.6712 65.9606 61.7902L69.3734 58.136C66.784 55.7177 63.7888 53.689 60.5218 52.883C57.1336 52.0471 53.6182 52.5746 50.3219 54.9818L53.2708 59.0197ZM65.9606 61.7902C73.2771 68.6234 72.8191 79.2463 67.4386 89.6929C62.0802 100.097 52.3388 109.159 43.1908 112.012L44.6797 116.785C55.4112 113.438 66.076 103.258 71.8836 91.9824C77.6691 80.7495 79.1373 67.255 69.3734 58.136L65.9606 61.7902ZM43.1908 112.012C36.1493 114.209 26.6308 112.63 18.4901 110.252C14.493 109.085 10.9641 107.766 8.43384 106.739C7.17034 106.226 6.15999 105.787 5.46954 105.479C5.1244 105.325 4.85949 105.203 4.68315 105.121C4.59498 105.08 4.52899 105.049 4.48621 105.029C4.46482 105.019 4.44924 105.011 4.43959 105.007C4.43476 105.004 4.43142 105.003 4.42959 105.002C4.42867 105.002 4.42812 105.001 4.42795 105.001C4.42787 105.001 4.42803 105.001 4.42799 105.001C4.42824 105.001 4.42859 105.002 3.34546 107.255C2.26234 109.508 2.26288 109.508 2.26351 109.508C2.26385 109.509 2.26458 109.509 2.26526 109.509C2.26661 109.51 2.26834 109.511 2.27046 109.512C2.27469 109.514 2.28043 109.517 2.28768 109.52C2.30217 109.527 2.32266 109.537 2.34902 109.549C2.40175 109.574 2.47797 109.61 2.57662 109.656C2.77392 109.747 3.06105 109.879 3.42963 110.044C4.16657 110.373 5.2302 110.835 6.55299 111.372C9.19531 112.445 12.8882 113.825 17.0882 115.052C25.3415 117.463 36.1179 119.456 44.6797 116.785L43.1908 112.012ZM3.72654 109.726L17.1658 107.653L16.4037 102.711L2.96439 104.784L3.72654 109.726ZM1.46423 108.901L10.8686 119.646L14.6311 116.353L5.22669 105.608L1.46423 108.901Z"
+                                        fill="#2B59FF" />
+                                </svg>
+                            </h2>
+                            <p class="subtitle">One of our workspace experts will reach out to you
+                                based on your
+                                communication
+                                preferences.</p>
+                            <div class="address mt-5">
+                                <p class="address-title">Email: </p>
+                                <p class="address-value">info@codinism.com</p>
+                                <p class="address-title">USA office: </p>
+                                <p class="address-value">Austin, TX-78738, USA
+                                </p>
+                                <p class="address-title">Bangladesh Office : </p>
+                                <p class="address-value">Level-4, 34, Awal
+                                    Centre, Banani, Dhaka</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 my-5">
+                        <div class="contact-right">
+                            <form id="contact-form">
+                                <div class="d-flex flex-column">
+                                    <label for="name">Your Name</label>
+                                    <input required class="text-field" name="name" type="text"
+                                        placeholder="Enter Your name here" id="name">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label for="email">Your Email</label>
+                                    <input required class="text-field" name="email" type="email"
+                                        placeholder="Enter Your email here" id="email">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label for="phone">Your Phone</label>
+                                    <input required class="text-field" name="phone" type="number"
+                                        placeholder="Enter Your phone number here" id="phone">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label for="email">Message</label>
+                                    <textarea required class="text-field" name="message"
+                                        placeholder="Tell us about your needs" id="" cols="30" rows="4"></textarea>
+                                </div>
+                                <button id="submit-btn" type="submit" class="btn w-100 primary-button">
+                                    <span id="contact-form-spinner" class="spinner-border spinner-border-sm d-none"
+                                        role="status" aria-hidden="true"></span> Lets Talk</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 footer-left">
+                        <div>
+                            <img src="./src/img/logo-white.png" alt="logo">
+                            <p class="subtitle">Hire Top Developers Remotely.</p>
+                            <!-- <div class="social-icons">
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <img src="./src/img/google.svg" alt="">
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <img src="./src/img/twitter.svg" alt="">
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <img src="./src/img/instagram.svg" alt="">
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <img src="./src/img/linkedin.svg" alt="">
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-8 footer-right">
+                        <div class="row">
+                            <div class="col-md-4 my-4">
+                                <h4 class="title">About</h4>
+                                <div class="links">
+                                    <a href="#about">About Us</a>
+                                    <a href="#why-codinism">Why Codinism</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 my-4">
+                                <h4 class="title">Company</h4>
+                                <div class="links">
+                                    <a href="#services">Services</a>
+                                    <a href="#hire-developers">Hire Developers</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 my-4">
+                                <h4 class="title">Support</h4>
+                                <div class="links">
+                                    <a href="#contact">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
-    <!-- End Footer Area --> 
-        
-        <!-- Scroll Top Button -->
-        <button id="content-desktop" class="scroll-top wow fadeInUp" data-wow-delay="2.5s">
-                <i class="fa fa-angle-double-up"></i>
-            </button>
-            
 
-            <!-- jQuery v3.3.1 -->
-        <script src="js/jquery-3.3.1.min.js"></script>    
-        <script src="assets/parallaxmouse/parallax.min.js"></script> 
-        <!-- Bootstrap v4.0.0 -->
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>  
-        <!-- Extra Plugin -->
-        <!-- <script src="js/validator.js"></script> -->
-        <script src="assets/animate-css/wow.min.js"></script> 
-        <script src="js/theme.js"></script>
-    
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="./lib/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="./lib/aos/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 100, // values from 0 to 3000, with step 50ms
+            duration: 600,
+            disable: ()=> window.innerWidth < 800
+        });
+    </script>
+    <!-- Custom JS -->
+    <script src="./src/js/script.js"></script>
 </body>
+
 </html>
